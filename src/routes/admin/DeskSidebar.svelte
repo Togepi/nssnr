@@ -177,7 +177,63 @@
 										stroke-linejoin="round"
 									/>
 								</svg>
-								Systèmes
+								Mécaniques
+							</a>
+						</li>
+						<li>
+							<a
+								href={resolve('/')}
+								class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-stone-600 dark:text-gray-400 dark:hover:bg-white/5 dark:hover:text-white"
+							>
+								<svg
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1.5"
+									data-slot="icon"
+									aria-hidden="true"
+									class="size-6 shrink-0 text-gray-400 group-hover:text-stone-600 dark:group-hover:text-white"
+								>
+									<path
+										d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								Scénario
+							</a>
+						</li>
+						<li>
+							<a
+								href={resolve('/')}
+								class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-stone-600 dark:text-gray-400 dark:hover:bg-white/5 dark:hover:text-white"
+							>
+								<svg
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="1.5"
+									data-slot="icon"
+									aria-hidden="true"
+									class="size-6 shrink-0 text-gray-400 group-hover:text-stone-600 dark:group-hover:text-white"
+								>
+									<path
+										d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								Matériel
 							</a>
 						</li>
 						<li>
@@ -238,48 +294,7 @@
 						</li>
 					</ul>
 				</li>
-				<li>
-					<div class="text-xs/6 font-semibold text-gray-400">Your teams</div>
-					<ul role="list" class="-mx-2 mt-2 space-y-1">
-						<li>
-							<!-- Current: "bg-gray-50 dark:bg-white/5 text-stone-600 dark:text-white", Default: "text-gray-700 dark:text-gray-400 hover:text-stone-600 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5" -->
-							<a
-								href={resolve('/')}
-								class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-stone-600 dark:text-gray-400 dark:hover:bg-white/5 dark:hover:text-white"
-							>
-								<span
-									class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-stone-600 group-hover:text-stone-600 dark:border-white/10 dark:bg-white/5 dark:group-hover:border-white/20 dark:group-hover:text-white"
-									>H</span
-								>
-								<span class="truncate">Heroicons</span>
-							</a>
-						</li>
-						<li>
-							<a
-								href={resolve('/')}
-								class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-stone-600 dark:text-gray-400 dark:hover:bg-white/5 dark:hover:text-white"
-							>
-								<span
-									class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-stone-600 group-hover:text-stone-600 dark:border-white/10 dark:bg-white/5 dark:group-hover:border-white/20 dark:group-hover:text-white"
-									>T</span
-								>
-								<span class="truncate">Tailwind Labs</span>
-							</a>
-						</li>
-						<li>
-							<a
-								href={resolve('/')}
-								class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-stone-600 dark:text-gray-400 dark:hover:bg-white/5 dark:hover:text-white"
-							>
-								<span
-									class="flex size-6 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-[0.625rem] font-medium text-gray-400 group-hover:border-stone-600 group-hover:text-stone-600 dark:border-white/10 dark:bg-white/5 dark:group-hover:border-white/20 dark:group-hover:text-white"
-									>W</span
-								>
-								<span class="truncate">Workcation</span>
-							</a>
-						</li>
-					</ul>
-				</li>
+
 				<li class="mt-auto">
 					<a
 						href={resolve('/')}
