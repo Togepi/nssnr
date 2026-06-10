@@ -1,0 +1,403 @@
+[{
+		"id": 1,
+		"nom": "Humaine",
+		"population": "Majoritaire",
+		"taille": "Moyenne",
+		"maquillage": "Rien",
+		"capacites": {
+			"positif": [
+				{
+					"id": 1,
+					"nom": "Adaptable",
+					"description": "+1PC et +1PE."
+				}
+			],
+			"negatif": []
+		}
+	},{
+		"id": 2,
+		"nom": "Elfe",
+		"population": "Majoritaire",
+		"taille": "Moyenne",
+		"maquillage": "fioriture verte sur le visage.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 1,
+					"nom": "Agile",
+					"description": "3x/jour, vous pouvez esquiver une attaque."
+				}
+			],
+			"negatif": []
+		}
+	},
+	{
+		"id": 3,
+		"nom": "Orque",
+		"population": "Répandue",
+		"taille": "Moyenne",
+		"maquillage": "Tatouage de guerre rouge sur visage vert.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 1,
+					"nom": "Rage",
+					"description": "1x par jour, toutes les attaques de mêlée de l'orque font tomber ses adversaires. La rage prend fin quand elle a vaincu ses adversaires, tombe inconsciente ou quand le combat est fini. Pendant la rage, elle ne distingue plus ses alliées de ses ennemies."
+				}
+			],
+			"negatif": []
+		}
+	},
+	{
+		"id": 4,
+		"nom": "Naine",
+		"population": "Répandue",
+		"taille": "Moyenne",
+		"maquillage": "Barbe ou suie sur le visage.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 2,
+					"nom": "Solide comme le roc",
+					"description": "1x par jour, la naine résiste à n'importe quelle attaque ou effet."
+				}
+			],
+			"negatif": []
+		}
+	},
+	{
+		"id": 5,
+		"nom": "Saurus",
+		"population": "Répandue",
+		"taille": "Moyenne",
+		"maquillage": "Écailles bleues sur le visage ou masque de lézard.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 3,
+					"nom": "Régénération",
+					"description": "Toutes les 3 minutes, la saurus peut soigner l'une de ses fractures."
+				}
+			],
+			"negatif": []
+		}
+	},
+	{
+		"id": 6,
+		"nom": "Halfeline",
+		"population": "Rare",
+		"taille": "Petite",
+		"maquillage": "Nez rosé.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 4,
+					"nom": "Chance",
+					"description": "2x par jour, l'halfeline peut dévier une attaque ou rejeter la faute sur quelqu'un d'autre."
+				}
+			],
+			"negatif": [
+				{
+					"id": 5,
+					"nom": "Faible",
+					"description": "Ne peut pas porter d'armes lourdes."
+				}
+			]
+		}
+	},
+	{
+		"id": 7,
+		"nom": "Ulath",
+		"population": "Rare",
+		"taille": "Moyenne",
+		"maquillage": "Cornes et tatouage de guerre sur le visage.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 6,
+					"nom": "Squelette métallique",
+					"description": "Ne subit pas les fractures."
+				}
+			],
+			"negatif": [
+				{
+					"id": 7,
+					"nom": "Paratonnerre",
+					"description": "Coma si électrocutée."
+				}
+			]
+		}
+	},
+	{
+		"id": 8,
+		"nom": "Gobeline",
+		"population": "Rare",
+		"taille": "Petite",
+		"maquillage": "Visage vert.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 8,
+					"nom": "Réflexe gobelin",
+					"description": "2x par jour, ignore une explosion (BOOM!)."
+				}
+			],
+			"negatif": [
+				{
+					"id": 9,
+					"nom": "Faible",
+					"description": "Ne peut pas porter d'armes lourdes."
+				}
+			]
+		}
+	},
+	{
+		"id": 9,
+		"nom": "Minotaure",
+		"population": "Très rare",
+		"taille": "Grande",
+		"maquillage": "Fourrure et cornes.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 10,
+					"nom": "Force",
+					"description": "Plus forte que tout le monde. Peut attraper et lancer à cinq mètres les personnages de taille égale ou inférieure n'ayant pas la compétence Force."
+				},
+				{
+					"id": 11,
+					"nom": "Dur à cuire",
+					"description": "3 PV au lieu d'1 PV."
+				}
+			],
+			"negatif": [
+				{
+					"id": 12,
+					"nom": "Taille inadaptée",
+					"description": "Difficile de trouver de l'équipement à sa taille. -4 PE."
+				}
+			]
+		}
+	},
+	{
+		"id": 10,
+		"nom": "Géante",
+		"population": "Très rare",
+		"taille": "Grande",
+		"maquillage": "Grande taille.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 13,
+					"nom": "Force",
+					"description": "Plus forte que tout le monde. Peut attraper et lancer à cinq mètres les personnages de taille égale ou inférieure n'ayant pas la compétence Force."
+				},
+				{
+					"id": 14,
+					"nom": "Dur à cuire",
+					"description": "3 PV au lieu d'1 PV."
+				}
+			],
+			"negatif": [
+				{
+					"id": 15,
+					"nom": "Taille inadaptée",
+					"description": "Difficile de trouver de l'équipement à sa taille. -4 PE."
+				}
+			]
+		}
+	},
+	{
+		"id": 11,
+		"nom": "Mycéanéenne",
+		"population": "Très rare",
+		"taille": "Moyenne",
+		"maquillage": "Costume avec chapeau de champignon.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 16,
+					"nom": "Langage des plantes",
+					"description": "Peut lire la langue des plantes (enveloppes)."
+				},
+				{
+					"id": 17,
+					"nom": "Spores",
+					"description": "Si elle reçoit un coup, elle libère des spores qui font tousser pendant 3 minutes toutes les personnes dans un rayon de 3 m."
+				}
+			],
+			"negatif": [
+				{
+					"id": 18,
+					"nom": "Muette",
+					"description": "Ne peut pas communiquer verbalement, sauf avec quelqu'un ayant la compétence Polyglotte."
+				}
+			]
+		}
+	},
+	{
+		"id": 12,
+		"nom": "Kobolde",
+		"population": "Très rare",
+		"taille": "Petite",
+		"maquillage": "Écailles rouges sur le visage ou masque de lézard.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 19,
+					"nom": "Couarde",
+					"description": "2x par jour, peut dire « Je me barre ! » et fuir. Devient invisible et ne peut être rattrapée."
+				}
+			],
+			"negatif": [
+				{
+					"id": 20,
+					"nom": "Faible",
+					"description": "Ne peut pas porter d'armes lourdes."
+				}
+			]
+		}
+	},
+	{
+		"id": 13,
+		"nom": "Lutine",
+		"population": "Très rare",
+		"taille": "Petite",
+		"maquillage": "Pommettes roses.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 21,
+					"nom": "Blague de lutin",
+					"description": "5x/jour : si la lutine raconte une blague à un personnage : s'il rit = soigne une fracture ; s'il ne la trouve pas bien = +1 dégât à sa prochaine attaque en mêlée."
+				}
+			],
+			"negatif": [
+				{
+					"id": 22,
+					"nom": "Faible",
+					"description": "Ne peut pas porter d'armes lourdes."
+				}
+			]
+		}
+	},
+	{
+		"id": 14,
+		"nom": "Cocléenne",
+		"population": "Très rare",
+		"taille": "Moyenne",
+		"maquillage": "Coquille sur le dos.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 23,
+					"nom": "Coquille",
+					"description": "Peut se replier dans sa coquille et devenir immunisée aux dégâts sauf armes lourdes et BOOM!."
+				},
+				{
+					"id": 24,
+					"nom": "Lentement mais sûrement",
+					"description": "Lorsqu'elle fabrique quelque chose, cela prend deux fois plus de temps mais réussit mieux."
+				}
+			],
+			"negatif": [
+				{
+					"id": 25,
+					"nom": "Lente",
+					"description": "Ne peut pas courir."
+				}
+			]
+		}
+	},
+	{
+		"id": 15,
+		"nom": "Robot",
+		"population": "Très rare",
+		"taille": "Moyenne",
+		"maquillage": "Ressembler à un robot.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 26,
+					"nom": "Chair d'acier",
+					"description": "5 PV sur tout le corps au lieu du système de fracture. Se fait soigner par une ingénieure (3 min = 1 PV). Insensible au poison, maladies, saignements et effets liés à la chair."
+				}
+			],
+			"negatif": [
+				{
+					"id": 27,
+					"nom": "Batterie",
+					"description": "Doit consommer une Batterie+ chaque jour ou être désactivé."
+				}
+			]
+		}
+	},
+	{
+		"id": 16,
+		"nom": "Fée",
+		"population": "Très rare",
+		"taille": "Très petite",
+		"maquillage": "Ailes et costume.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 28,
+					"nom": "Lien magique",
+					"description": "Possède encore un lien avec la magie."
+				}
+			],
+			"negatif": [
+				{
+					"id": 29,
+					"nom": "Taille inappropriée",
+					"description": "Ne peut ni porter d'arme, ni porter d'armure."
+				}
+			]
+		}
+	},
+	{
+		"id": 17,
+		"nom": "Faune",
+		"population": "Rare",
+		"taille": "Petite",
+		"maquillage": "Cornes et costume.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 30,
+					"nom": "Charme",
+					"description": "1x/jour : si elle courtise une personne pendant au moins une heure, elle peut la charmer. La personne garde son libre arbitre mais devient terriblement éprise."
+				}
+			],
+			"negatif": []
+		}
+	},
+	{
+		"id": 18,
+		"nom": "Déesse terrestre",
+		"population": "Unique",
+		"taille": "Moyenne",
+		"maquillage": "Au choix de la joueuse.",
+		"capacites": {
+			"positif": [
+				{
+					"id": 31,
+					"nom": "Indestructible",
+					"description": "5 PV sur tout le corps au lieu du système de fracture."
+				},
+				{
+					"id": 32,
+					"nom": "Spécial",
+					"description": "À négocier avec les orgas."
+				}
+			],
+			"negatif": [
+				{
+					"id": 33,
+					"nom": "Maladie incurable",
+					"description": "Perd en force tout au long du GN."
+				}
+			]
+		}
+	}
+]

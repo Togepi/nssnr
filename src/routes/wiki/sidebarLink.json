@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Sécurité ",
+		"subMenu": [
+			{ "name": "Sécurité Physique", "link": "/wiki/securite/physique", "id": 1 },
+			{ "name": "Sécurité émotionelle", "link": "/wiki/securite/emotionelle", "id": 2 },
+			{ "name": "Flairplay", "link": "/wiki/securite/fairplay", "id": 3 }
+		]
+	},
+	{
+		"name": "Mécaniques ",
+		"subMenu": [
+			{ "name": "Mécaniques de base", "link": "/wiki/mecaniques/generales", "id": 4 },
+			{ "name": "Mots clés", "link": "/wiki/mecaniques/motsCles", "id": 5 }
+		]
+	},
+	{
+		"name": "Création Personnage ",
+		"subMenu": [
+			{
+				"name": "Créer son personnage",
+				"link": "/wiki/creationPersonnage/resume",
+				"id": 6
+			},
+			{ "name": "Espèces jouables", "link": "/wiki/creationPersonnage/especesJouables", "id": 7 },
+			{ "name": "Compétences", "link": "/wiki/creationPersonnage/competences", "id": 8 },
+			{ "name": "Équipement", "link": "/wiki/creationPersonnage/equipement", "id": 9 }
+		]
+	}
+]

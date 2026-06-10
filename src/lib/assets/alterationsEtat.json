@@ -1,0 +1,32 @@
+[
+	{
+		"id": 16,
+		"annonce": ["Désorientation"],
+		"effet": "La cible ne sait plus où elle est ni ce qu'elle fait. Elle ne peut plus utiliser ses compétences ou connaissances."
+	},
+	{
+		"id": 17,
+		"annonce": ["Mutisme", "Surdité", "Cécité"],
+		"effet": "Mutisme : ne peut plus parler. Surdité : ne peut plus entendre. Cécité : ne peut plus voir."
+	},
+	{
+		"id": 18,
+		"annonce": ["Paralysie"],
+		"effet": "La cible est pétrifiée et ne peut plus bouger ni parler. Elle peut voir et entendre si elle le souhaite. La paralysie cesse lorsqu'elle subit un dégât."
+	},
+	{
+		"id": 19,
+		"annonce": ["Ralentit"],
+		"effet": "Tous les mouvements sont beaucoup plus lents. Tous les effets minutés sont triplés."
+	},
+	{
+		"id": 20,
+		"annonce": ["Déprime"],
+		"effet": "La cible sombre dans une dépression profonde pouvant mener au suicide. Impossible de s'en guérir seule."
+	},
+	{
+		"id": 21,
+		"annonce": ["Hallucination"],
+		"effet": "La cible ne peut pas maintenir son attention plus de quelques secondes. En danger, elle peut fuir ou se défendre vaguement."
+	}
+]

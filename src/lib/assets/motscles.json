@@ -1,0 +1,77 @@
+[
+	{
+		"id": 1,
+		"annonce": ["Brise-arme", "Brise-armure", "Brise-bouclier"],
+		"effet": "A l'annonce d'un \"Brise-arme!\", l'arme touchée se brise et devient inutilisable jusqu'à réparation par un forgeron. Idem pour \"Brise-bouclier!\" ou \"Brise-armure!\" (l'armure entière est détruite). Un objet brisé doit porter un ruban noir fourni par le Marchand."
+	},
+	{
+		"id": 2,
+		"annonce": ["Ordre"],
+		"effet": "À l'annonce du mot-clé \"Ordre\", la cible est obligée d'exécuter ce qui est demandé. Généralement une phrase courte, mais peut être complexe."
+	},
+	{
+		"id": 3,
+		"annonce": ["Sprint", "Athlétisme"],
+		"effet": "Symbolise une grande vitesse. Celui qui fuit avec un \"Sprint\" ne peut pas être rattrapé ; celui qui poursuit avec un \"Sprint\" rattrape automatiquement sa cible."
+	},
+	{
+		"id": 4,
+		"annonce": ["Je me casse", "Fuite"],
+		"effet": "Comme \"Sprint\" mais ne peut jamais être rattrapé."
+	},
+	{
+		"id": 5,
+		"annonce": ["Flash"],
+		"effet": "Symbolise une lumière aveuglante. Un \"Flash!\" simple = 5 secondes d'aveuglement. Le lanceur peut préciser une durée (ex: \"Flash! 30 secondes\")."
+	},
+	{
+		"id": 6,
+		"annonce": ["Assomme"],
+		"effet": "Le joueur doit poser la main sur l'épaule de la victime et dire \"Assomme!\". La cible tombe inconsciente pendant 3 minutes, sans bruit, et sans tenir compte de ce qu'elle a reconnu."
+	},
+	{
+		"id": 7,
+		"annonce": ["BOOM!"],
+		"effet": "Explosion de grenade ou roquette. Tous les joueurs dans la pièce ou dans un rayon de 5m subissent 2 dégâts sans armure."
+	},
+	{
+		"id": 8,
+		"annonce": ["Menace", "Menace de Mort"],
+		"effet": "Fonctionne comme un backstab (main sur l'épaule). \"Menace!\" = couteau imaginaire sous la gorge, la cible ne bouge plus. \"Menace de Mort!\" permet d'exécuter immédiatement la victime (croc-mort). Nécessite Paria + Cannibalisme."
+	},
+	{
+		"id": 9,
+		"annonce": ["Fouille"],
+		"effet": "Sur une cible au sol, inconsciente, en coma ou endormie. La cible décrit tout ce qu'elle possède et l'attaquant peut prendre ce qu'il veut. On ne fouille jamais physiquement."
+	},
+	{
+		"id": 10,
+		"annonce": ["Résiste"],
+		"effet": "\"Résiste\" annule un coup ou un sort. Utilisable par les Nains une fois par jour."
+	},
+	{
+		"id": 11,
+		"annonce": ["Imparable"],
+		"effet": "Les coups \"Imparable\" ne peuvent pas être parés. Même paré physiquement, le coup est considéré comme ayant touché."
+	},
+	{
+		"id": 12,
+		"annonce": ["Chute"],
+		"effet": "Permet de faire tomber l'adversaire au sol en annonçant \"Chute !\" en portant un coup."
+	},
+	{
+		"id": 13,
+		"annonce": ["Renvoi"],
+		"effet": "Renvoie l'effet ou le dégât à l'expéditeur."
+	},
+	{
+		"id": 14,
+		"annonce": ["Chance", "C'est lui", "C'est elle", "C'est iel"],
+		"effet": "Dévie un effet sur une personne adjacente ou permet de rejeter la faute sur quelqu'un d'autre."
+	},
+	{
+		"id": 15,
+		"annonce": ["Désarme"],
+		"effet": "Si la combattante touche l'arme adverse, elle peut annoncer \"Désarme !\" et l'autre doit lâcher / poser / lancer son arme."
+	}
+]

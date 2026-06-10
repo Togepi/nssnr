@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+@font-face {
+	font-family: 'Switzer';
+	src: url('/fonts/Switzer-Variable.ttf');
+	font-weight: 100 900;
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Switzer';
+	src: url('/fonts/Switzer-VariableItalic.ttf');
+	font-weight: 100 900;
+	font-display: swap;
+	font-style: italic;
+}
+@theme {
+	--font-prose: 'Switzer', system-ui, sans-serif;
+	--font-monocode:
+		ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+:root {
+	p > a {
+		@apply text-orange-800 underline;
+	}
+	.btn {
+		@apply cursor-pointer bg-stone-950 p-2 px-4 font-monocode text-stone-50 uppercase hover:bg-stone-800;
+	}
+	.btn-admin {
+		@apply cursor-pointer rounded-lg border border-blue-300 bg-blue-500 p-2 px-4 font-monocode text-blue-50 uppercase hover:border-blue-400 hover:bg-blue-600;
+	}
+	.btn-admin-sm {
+		@apply cursor-pointer gap-2 rounded-full border px-6 py-1 hover:bg-stone-100;
+	}
+	.icon {
+		@apply flex items-center justify-between;
+	}
+	.prose {
+		@apply space-y-4 font-prose md:py-44;
+	}
+	.title {
+		@apply text-5xl font-bold;
+	}
+	.prose {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			@apply font-bold;
+		}
+		h1 {
+			@apply mb-12 text-5xl;
+		}
+		h2 {
+			@apply mt-12 text-lg;
+		}
+		.tagline {
+			@apply text-xl text-stone-500;
+		}
+		.chapitreCenter {
+			@apply mx-auto max-w-2xl;
+		}
+	}
+}
+@layer base {
+	input[type='file'] {
+		@apply cursor-pointer text-sm text-stone-600;
+	}
+
+	input[type='file']::file-selector-button {
+		@apply mr-4 cursor-pointer rounded border border-stone-300 bg-white px-4 py-2 text-sm font-medium text-stone-700 hover:bg-stone-50;
+	}
+}

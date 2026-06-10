@@ -1,0 +1,305 @@
+{
+	"Combat": [
+		{
+			"name": "Armurier",
+			"cost": 4,
+			"description": "Peut porter des armures lourdes.",
+			"prerequisites": []
+		},
+		{
+			"name": "Chevalier",
+			"cost": 4,
+			"description": "Peut utiliser toutes les armes de mêlée (deux mains, boucliers, extra-longues).",
+			"prerequisites": []
+		},
+		{
+			"name": "Soldat",
+			"cost": 4,
+			"description": "Peut utiliser les armes à feu à deux mains, les grenades et les armes lourdes.",
+			"prerequisites": []
+		},
+		{
+			"name": "Chasseur",
+			"cost": 2,
+			"description": "Peut utiliser les arcs et arbalètes. Reçoit le double de cuir sur les monstres.",
+			"prerequisites": []
+		},
+		{
+			"name": "Baroud d’honneur",
+			"cost": 3,
+			"description": "Lorsque vous êtes censé être dans le coma, vous pouvez ramper par terre. Impossible de parler sauf gasps. Un coup vous fait perdre conscience.",
+			"prerequisites": []
+		},
+		{
+			"name": "Ambidextrie",
+			"cost": 3,
+			"description": "Permet d’utiliser deux armes à une main en même temps.",
+			"prerequisites": []
+		},
+		{
+			"name": "Tueur de goliath",
+			"cost": 3,
+			"description": "Ignore l’armure des géants ou minotaures.",
+			"prerequisites": ["Halfelin", "Lutin", "Goblin", "Kobold"]
+		},
+		{
+			"name": "Force",
+			"cost": 3,
+			"description": "Permet d’attraper et lancer à 5m les personnages de taille égale ou inférieure sans la compétence Force. Permet de porter/jeter des objets lourds.",
+			"prerequisites": []
+		},
+		{
+			"name": "Endurance",
+			"cost": 3,
+			"description": "Vous avez deux PV supplémentaires, considérés comme de l’armure invisible récupérée hors blessure.",
+			"prerequisites": []
+		},
+		{
+			"name": "Volonté d’acier",
+			"cost": 1,
+			"description": "1x/jour ignore un effet mental.",
+			"prerequisites": [],
+			"notes": "Peut être pris plusieurs fois."
+		},
+		{
+			"name": "Athlétisme",
+			"cost": 1,
+			"description": "2x/jour, fuir ou rattraper quelqu'un qui fuit.",
+			"prerequisites": [],
+			"notes": "Peut être pris plusieurs fois."
+		},
+		{
+			"name": "Acrobaties",
+			"cost": 1,
+			"description": "2x/jour, esquiver une attaque.",
+			"prerequisites": [],
+			"notes": "Peut être pris plusieurs fois."
+		},
+		{
+			"name": "Désarme",
+			"cost": 1,
+			"description": "2x/jour, l’adversaire lâche son arme si touché. Annule un désarmement.",
+			"prerequisites": [],
+			"notes": "Peut être pris plusieurs fois."
+		}
+	],
+
+	"Artisanat": [
+		{
+			"name": "Recyclage",
+			"cost": 2,
+			"description": "Permet de recycler des objets abandonnés en ressources.",
+			"prerequisites": []
+		},
+		{
+			"name": "Bricolage",
+			"cost": 2,
+			"description": "Vous recevez 5 recettes aléatoires d’artisanat.",
+			"prerequisites": []
+		},
+		{
+			"name": "Ingénierie",
+			"cost": 1,
+			"description": "Soigne les robots (3 min par PV).",
+			"prerequisites": ["Recyclage", "Bricolage"]
+		},
+		{
+			"name": "Spécialisation d’ingénierie",
+			"cost": 2,
+			"description": "Permet de fabriquer des objets spécifiques selon la spécialisation.",
+			"prerequisites": ["Ingénierie"],
+			"notes": "Peut être pris plusieurs fois.",
+			"specializations": ["Artificier", "Forgeron", "Prothésiste", "Savant fou"]
+		},
+		{
+			"name": "Maître de la munition",
+			"cost": 3,
+			"description": "Permet de recycler les darts nerf et fabriquer des munitions spéciales.",
+			"prerequisites": []
+		},
+		{
+			"name": "Tanneur",
+			"cost": 3,
+			"description": "Permet d’améliorer, fabriquer et réparer des armures légères.",
+			"prerequisites": []
+		},
+		{
+			"name": "Science",
+			"cost": 3,
+			"description": "Permet de faire des recherches scientifiques et découvrir des recettes.",
+			"prerequisites": []
+		},
+		{
+			"name": "Professeur",
+			"cost": 3,
+			"description": "Permet de transmettre une compétence à un élève en 1h.",
+			"prerequisites": []
+		}
+	],
+
+	"Soins": [
+		{
+			"name": "1er Soins",
+			"cost": 2,
+			"description": "Soigne un joueur du coma (3 min).",
+			"prerequisites": []
+		},
+		{
+			"name": "Herboriste",
+			"cost": 2,
+			"description": "Connaît les effets des champignons.",
+			"prerequisites": []
+		},
+		{
+			"name": "Médecine",
+			"cost": 1,
+			"description": "Soigne les fractures (3 min par fracture).",
+			"prerequisites": ["1er Soins", "Herboriste"]
+		},
+		{
+			"name": "Spécialisation de Médecine",
+			"cost": 2,
+			"description": "Permet de fabriquer des objets médicaux spécifiques.",
+			"prerequisites": ["Médecine"],
+			"notes": "Peut être pris plusieurs fois.",
+			"specializations": ["Pharmacie", "Psychonaute", "Distillerie naine", "Généticien"]
+		},
+		{
+			"name": "Psychologie",
+			"cost": 4,
+			"description": "Retire les altérations mentales (5 min) et augmente les intuitions/jour.",
+			"prerequisites": []
+		}
+	],
+
+	"Crimes": [
+		{
+			"name": "Paria",
+			"cost": 4,
+			"description": "Peut voler les bourses et poignarder.",
+			"prerequisites": []
+		},
+		{
+			"name": "Saboteur",
+			"cost": 2,
+			"description": "Arme/désarmer les pièges, déplace animaux venimeux, crochette serrures.",
+			"prerequisites": []
+		},
+		{
+			"name": "Poche secrète",
+			"cost": 2,
+			"description": "Cache un petit objet lors d’une fouille.",
+			"prerequisites": []
+		},
+		{
+			"name": "Cannibale",
+			"cost": 3,
+			"description": "Dévore un cadavre en 3 min pour le retirer du jeu.",
+			"prerequisites": []
+		},
+		{
+			"name": "Empoisonneur",
+			"cost": 2,
+			"description": "Pose une pince avec champignon/drogue pour appliquer l’effet.",
+			"prerequisites": []
+		},
+		{
+			"name": "Discrétion",
+			"cost": 3,
+			"description": "Invisible quand statique et dans l’ombre.",
+			"prerequisites": []
+		}
+	],
+
+	"Influence": [
+		{
+			"name": "Commerce",
+			"cost": 3,
+			"description": "Permet d’acheter des ressources par paquet de 10.",
+			"prerequisites": []
+		},
+		{
+			"name": "Fournisseur",
+			"cost": 2,
+			"description": "Divise par deux le coût d’une ressource spécifique.",
+			"prerequisites": ["Commerce"],
+			"notes": "Peut être pris plusieurs fois.",
+			"specializations": ["Métaux", "Bois", "Plastiques", "Champignons", "Cuirs", "Chimiques"]
+		},
+		{
+			"name": "Contact",
+			"cost": 3,
+			"description": "Permet d’explorer le monde via un pion et obtenir infos/ressources.",
+			"prerequisites": []
+		},
+		{
+			"name": "Bizness",
+			"cost": 3,
+			"description": "Votre famille produit nourriture, alcool ou bêtes vendables.",
+			"prerequisites": [],
+			"notes": "Peut être pris plusieurs fois.",
+			"specializations": [
+				"Agriculture",
+				"Élevage de lézard géant",
+				"Élevage de korgnos",
+				"Élevage de mantin",
+				"Distillation"
+			]
+		},
+		{
+			"name": "Braconnage",
+			"cost": 3,
+			"description": "Capture les animaux sauvages au lieu de les tuer.",
+			"prerequisites": []
+		},
+		{
+			"name": "Économe",
+			"cost": 1,
+			"description": "+1 Point d’équipement.",
+			"prerequisites": [],
+			"notes": "Peut être pris plusieurs fois."
+		}
+	],
+
+	"Social": [
+		{
+			"name": "Discours",
+			"cost": 1,
+			"description": "2x/jour, parler 1 min sans interruption.",
+			"prerequisites": [],
+			"notes": "Peut être pris plusieurs fois."
+		},
+		{
+			"name": "Persuasion",
+			"cost": 1,
+			"description": "2x/jour, convaincre quelqu’un d’une idée non contraire à ses convictions.",
+			"prerequisites": [],
+			"notes": "Peut être pris plusieurs fois."
+		},
+		{
+			"name": "Intuition",
+			"cost": 1,
+			"description": "2x/jour, détecte le mensonge.",
+			"prerequisites": [],
+			"notes": "Peut être pris plusieurs fois."
+		},
+		{
+			"name": "Analyse",
+			"cost": 2,
+			"description": "Après 5 min de discussion, révèle toutes les compétences du personnage.",
+			"prerequisites": []
+		},
+		{
+			"name": "Polyglotte",
+			"cost": 2,
+			"description": "Comprend toutes les langues, lit les messages codés.",
+			"prerequisites": []
+		},
+		{
+			"name": "Inspirant",
+			"cost": 3,
+			"description": "Après un discours, donne un bonus temporaire aux alliés.",
+			"prerequisites": ["Discours"]
+		}
+	]
+}
