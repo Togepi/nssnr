@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  svelte-lexical:
+    hash: a1bc6f4fe678b7a2d695f73ccf44b2313de708a9761489bc64a6443b56391065
+    path: patches/svelte-lexical.patch
+
 importers:
 
   .:
@@ -19,7 +24,7 @@ importers:
         version: 5.1.11
       svelte-lexical:
         specifier: ^0.6.4
-        version: 0.6.4(svelte@5.55.5(@typescript-eslint/types@8.59.1))
+        version: 0.6.4(patch_hash=a1bc6f4fe678b7a2d695f73ccf44b2313de708a9761489bc64a6443b56391065)(svelte@5.55.5(@typescript-eslint/types@8.59.1))
     devDependencies:
       '@better-auth/cli':
         specifier: ~1.4.21
@@ -6337,7 +6342,7 @@ snapshots:
     optionalDependencies:
       svelte: 5.55.5(@typescript-eslint/types@8.59.1)
 
-  svelte-lexical@0.6.4(svelte@5.55.5(@typescript-eslint/types@8.59.1)):
+  svelte-lexical@0.6.4(patch_hash=a1bc6f4fe678b7a2d695f73ccf44b2313de708a9761489bc64a6443b56391065)(svelte@5.55.5(@typescript-eslint/types@8.59.1)):
     dependencies:
       '@lexical/clipboard': 0.40.0
       '@lexical/code': 0.40.0

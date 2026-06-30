@@ -1,0 +1,65 @@
+diff --git a/dist/themes/default/shell/ActionBar.css b/dist/themes/default/shell/ActionBar.css
+index 2cb9257676013a393a3878e8975b2b2e10835e90..597a39a515bb27f224bf44022c7e99435fc165a4 100644
+--- a/dist/themes/default/shell/ActionBar.css
++++ b/dist/themes/default/shell/ActionBar.css
+@@ -85,9 +85,6 @@
+     color: #000;
+   }
+ 
+-  .action-button-mic.active {
+-    animation: mic-pulsate-color 3s infinite;
+-  }
+ 
+   button.action-button:disabled {
+     opacity: 0.6;
+@@ -95,17 +92,7 @@
+     cursor: not-allowed;
+   }
+ 
+-  @keyframes mic-pulsate-color {
+-    0% {
+-      background-color: #ffdcdc;
+-    }
+-    50% {
+-      background-color: #ff8585;
+-    }
+-    100% {
+-      background-color: #ffdcdc;
+-    }
+-  }
++  
+ 
+   .connecting {
+     font-size: 15px;
+diff --git a/dist/themes/light-dark/shell/ActionBar.css b/dist/themes/light-dark/shell/ActionBar.css
+index 438aa364cc92a418d28ba0bbcaa8270b3c343b50..48e02a8935be66c8f2bc5fbf73e20d78552fadfa 100644
+--- a/dist/themes/light-dark/shell/ActionBar.css
++++ b/dist/themes/light-dark/shell/ActionBar.css
+@@ -86,9 +86,6 @@
+     color: var(--text-color);
+   }
+ 
+-  .action-button-mic.active {
+-    animation: mic-pulsate-color 3s infinite;
+-  }
+ 
+   button.action-button:disabled {
+     opacity: 0.6;
+@@ -96,17 +93,6 @@
+     cursor: not-allowed;
+   }
+ 
+-  @keyframes mic-pulsate-color {
+-    0% {
+-      background-color: #ffdcdc;
+-    }
+-    50% {
+-      background-color: #ff8585;
+-    }
+-    100% {
+-      background-color: #ffdcdc;
+-    }
+-  }
+ 
+   .connecting {
+     font-size: 15px;
