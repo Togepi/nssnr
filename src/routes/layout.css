@@ -1,45 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
-@font-face {
-	font-family: 'Switzer';
-	src: url('/fonts/Switzer-Variable.ttf');
-	font-weight: 100 900;
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Switzer';
-	src: url('/fonts/Switzer-VariableItalic.ttf');
-	font-weight: 100 900;
-	font-display: swap;
-	font-style: italic;
-}
+
 @theme {
-	--font-prose: 'Switzer', system-ui, sans-serif;
-	--font-monocode:
-		ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	--font-geist: 'Geist', sans-serif;
+	--font-mmono: 'Geist Mono', sans-serif;
 }
 :root {
-	p > a {
+	body {
+		@apply bg-stone-100 font-geist text-stone-900;
+	}
+	prose p > a {
 		@apply text-orange-800 underline;
 	}
 	.btn {
-		@apply cursor-pointer bg-stone-950 p-2 px-4 font-monocode text-stone-50 uppercase hover:bg-stone-800;
+		@apply flex cursor-pointer items-center justify-center rounded-full bg-stone-950 px-8 py-2 text-center text-stone-50 hover:bg-stone-800;
 	}
-	.btn-admin {
-		@apply cursor-pointer rounded-lg border border-blue-300 bg-blue-500 p-2 px-4 font-monocode text-blue-50 uppercase hover:border-blue-400 hover:bg-blue-600;
+	.btn-secondary {
+		@apply flex items-center justify-center rounded-full border border-stone-300 bg-stone-50 px-8 py-2 text-center text-stone-950 hover:bg-stone-900 hover:text-white;
 	}
-	.btn-admin-sm {
+	.btn-sm {
 		@apply cursor-pointer gap-2 rounded-full border px-6 py-1 hover:bg-stone-100;
 	}
 	.icon {
 		@apply flex items-center justify-between;
 	}
 	.prose {
-		@apply space-y-4 font-prose md:py-44;
+		@apply space-y-4 px-5 font-geist md:py-44 xl:px-0;
 	}
 	.title {
 		@apply text-5xl font-bold;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-geist;
 	}
 	.prose {
 		h1,
@@ -61,6 +58,9 @@
 		}
 		.chapitreCenter {
 			@apply mx-auto max-w-2xl;
+		}
+		p {
+			@apply my-2;
 		}
 	}
 }

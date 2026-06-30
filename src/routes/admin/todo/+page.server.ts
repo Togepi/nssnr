@@ -3,6 +3,7 @@ import type { PageServerLoad } from './$types';
 import { db } from '$lib/server/db';
 import { todos } from '$lib/server/db/schema';
 import { fail } from '@sveltejs/kit';
+import { eq } from 'drizzle-orm';
 
 export const load: PageServerLoad = async () => {
 	// Récupère toutes les todos
@@ -37,5 +38,15 @@ export const actions: Actions = {
 			dueDate: parsedDate,
 			assignedTo
 		});
+	},
+	completeTodo: async ({ request }) => {
+		const formData = await request.formData();
+		const idRaw = formData.get('id')?.toString();
+		const id = Number(idRaw);
+
+		if (!id) {
+			return fail(400, { error: 'ID manquant.' });
+		}
+		await db.update(todos).set({ completed: true }).where(eq(todos.id, id));
 	}
 };

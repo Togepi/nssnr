@@ -55,9 +55,7 @@
 		<section class="prose pt-12">
 			{@render children()}
 
-			<div
-				class="mx-auto mt-24 flex max-w-2xl justify-between border-t border-t-stone-200 pt-4 font-monocode"
-			>
+			<div class="mx-auto mt-24 flex max-w-2xl justify-between border-t border-t-stone-200 pt-4">
 				{#if actualPage.id === 1}
 					<div></div>
 				{:else}

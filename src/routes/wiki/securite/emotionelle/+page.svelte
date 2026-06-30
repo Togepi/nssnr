@@ -1,4 +1,4 @@
-<main class="mx-auto max-w-2xl">
+<main class="mx-auto max-w-2xl font-system">
 	<h1 id="sécurité-émotionnelle">Sécurité émotionnelle</h1>
 	<h2 id="prévenir-plutôt-que-guérir">Prévenir plutôt que guérir</h2>
 	<p>
