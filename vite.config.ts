@@ -5,7 +5,10 @@ import { sveltekit } from '@sveltejs/kit/vite';
 
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
-	  build: {
+	  css: {
+        transformer: 'postcss'
+    },
+    build: {
         cssMinify: 'esbuild'
     },
 	test: {
