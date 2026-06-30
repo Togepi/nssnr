@@ -5,8 +5,12 @@ import { sveltekit } from '@sveltejs/kit/vite';
 
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
+	  build: {
+        cssMinify: 'esbuild'
+    },
 	test: {
 		expect: { requireAssertions: true },
+		
 		projects: [
 			{
 				extends: './vite.config.ts',
