@@ -26,8 +26,7 @@
 		"name": "Mécaniques ",
 		"subMenu": [
 			{ "name": "Mécaniques de base", "link": "/mecaniques/generales", "id": 9 },
-			{ "name": "Mots clés", "link": "/mecaniques/motsCles", "id": 10 },
-			{ "name": "Factions", "link": "/mecaniques/factions", "id": 11 }
+			{ "name": "Mots clés", "link": "/mecaniques/motsCles", "id": 10 }
 		]
 	},
 	{
@@ -36,7 +35,7 @@
 			{
 				"name": "Créer son personnage",
 				"link": "/creationPersonnage/resume",
-				"id": 6
+				"id": 11
 			},
 			{ "name": "Espèces jouables", "link": "/creationPersonnage/especesJouables", "id": 12 },
 			{ "name": "Compétences", "link": "/creationPersonnage/competences", "id": 13 },

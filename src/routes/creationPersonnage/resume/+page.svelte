@@ -1,4 +1,4 @@
-<main class="chapitreCenter">
+<main class="mx-auto max-w-2xl prose" >
 	<h1>Créer son personnage</h1>
 	<h2 id="0-regardez-un-résumé-de-lunivers">0. Regardez un résumé de l’univers</h2>
 	<p>

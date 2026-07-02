@@ -1,4 +1,4 @@
-<main class="mx-auto max-w-2xl">
+<main class="mx-auto max-w-2xl prose">
 	<h1 id="règle-du-jeu-générales">Règles de jeu générales</h1>
 	<h2>Pour commencer</h2>
 	<p>
