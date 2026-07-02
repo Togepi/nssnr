@@ -5,7 +5,7 @@
 </script>
 
 <nav
-	class="font-ui fixed top-0 left-0 flex min-h-screen w-60 flex-col justify-between border-r border-r-stone-200 p-2 pl-8"
+	class="font-ui fixed top-0 left-0 flex h-screen w-60 flex-col justify-between border-r border-r-stone-200 p-2 pl-8 overflow-y-scroll "
 >
 	<h1 class="font-black">NSSNR WIKI</h1>
 	<ul>

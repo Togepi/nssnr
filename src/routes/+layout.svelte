@@ -48,7 +48,7 @@
 
 <WikiMobileMenu />
 <main class="flex">
-	<nav class="hidden w-60 shrink-0 md:block">
+	<nav class="hidden w-60 h-screen shrink-0 md:block overflow-y-scroll">
 		<SideBar />
 	</nav>
 
