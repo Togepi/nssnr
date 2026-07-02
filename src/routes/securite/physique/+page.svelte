@@ -1,4 +1,4 @@
-<main class="mx-auto max-w-2xl">
+<main class="prose mx-auto max-w-2xl">
 	<h1 id="sécurité-physique">Sécurité physique</h1>
 	<h2 id="la-sécurité-en-priorité">La sécurité en priorité</h2>
 	<p>

@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Informations ",
+		"subMenu": [
+			{ "name": "Note d'intention", "link": "/", "id": 1 },
+			{ "name": "Infos Pratiques", "link": "/informations/infos", "id": 2 },
+			{ "name": "Documents", "link": "/informations/documents", "id": 3 }
+		]
+	},
+	{
+		"name": "Univers ",
+		"subMenu": [
+			{ "name": "NSSN", "link": "/univers/nssn", "id": 4 },
+			{ "name": "Les factions", "link": "/univers/factions", "id": 5 }
+		]
+	},
+	{
+		"name": "Sécurité ",
+		"subMenu": [
+			{ "name": "Sécurité Physique", "link": "/securite/physique", "id": 6 },
+			{ "name": "Sécurité émotionelle", "link": "/securite/emotionelle", "id": 7 },
+			{ "name": "Fairplay", "link": "/securite/fairplay", "id": 8 }
+		]
+	},
+	{
+		"name": "Mécaniques ",
+		"subMenu": [
+			{ "name": "Mécaniques de base", "link": "/mecaniques/generales", "id": 9 },
+			{ "name": "Mots clés", "link": "/mecaniques/motsCles", "id": 10 },
+			{ "name": "Factions", "link": "/mecaniques/factions", "id": 11 }
+		]
+	},
+	{
+		"name": "Création Personnage ",
+		"subMenu": [
+			{
+				"name": "Créer son personnage",
+				"link": "/creationPersonnage/resume",
+				"id": 6
+			},
+			{ "name": "Espèces jouables", "link": "/creationPersonnage/especesJouables", "id": 12 },
+			{ "name": "Compétences", "link": "/creationPersonnage/competences", "id": 13 },
+			{ "name": "Équipement", "link": "/creationPersonnage/equipement", "id": 14 }
+		]
+	}
+]

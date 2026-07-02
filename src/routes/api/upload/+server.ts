@@ -40,3 +40,4 @@ export async function POST({ request, locals }) {
 
 	return new Response(JSON.stringify({ url }), { status: 200 });
 }
+

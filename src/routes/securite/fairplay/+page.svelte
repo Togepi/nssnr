@@ -1,4 +1,4 @@
-<main class="mx-auto max-w-2xl">
+<main class="prose mx-auto max-w-2xl">
 	<h1 id="fairplay">Fairplay</h1>
 	<h2 id="jouer-le-jeu">Jouer le jeu</h2>
 	<p>

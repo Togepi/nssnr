@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=bespoke-slab@400&f[]=poppins@600&display=swap');
 @import 'tailwindcss';
 
 @theme {
-	--font-geist: 'Geist', sans-serif;
-	--font-mmono: 'Geist Mono', sans-serif;
+	--font-geist: 'Poppins', sans-serif;
+	--font-serif: 'Bespoke Slab', serif;
 }
 :root {
 	body {
 		@apply bg-stone-100 font-geist text-stone-900;
+	}
+	p {
+		@apply font-serif;
 	}
 	prose p > a {
 		@apply text-orange-800 underline;
@@ -25,7 +28,7 @@
 		@apply flex items-center justify-between;
 	}
 	.prose {
-		@apply space-y-4 px-5 font-geist md:py-44 xl:px-0;
+		@apply mx-auto max-w-2xl space-y-4 px-5 font-serif md:pt-44 xl:px-0 pt-44 md:pt-0;
 	}
 	.title {
 		@apply text-5xl font-bold;
@@ -45,7 +48,7 @@
 		h4,
 		h5,
 		h6 {
-			@apply font-bold;
+			@apply font-geist font-bold;
 		}
 		h1 {
 			@apply mb-12 text-5xl;
@@ -60,7 +63,7 @@
 			@apply mx-auto max-w-2xl;
 		}
 		p {
-			@apply my-2;
+			@apply my-2 text-lg;
 		}
 	}
 }
