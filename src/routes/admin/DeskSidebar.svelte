@@ -7,7 +7,7 @@
 	<div
 		class="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 pb-4 dark:border-white/10 dark:bg-black/10"
 	>
-		<div class="flex h-16 shrink-0 items-center font-monocode">NSSNR</div>
+		<div class="font-monocode flex h-16 shrink-0 items-center">NSSNR</div>
 		<nav class="flex flex-1 flex-col">
 			<ul role="list" class="flex flex-1 flex-col gap-y-7">
 				<li>
@@ -85,7 +85,7 @@
 						</li>
 						<li>
 							<a
-								href={resolve('/')}
+								href={resolve('/admin/PJ')}
 								class="group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold text-gray-700 hover:bg-gray-50 hover:text-stone-600 dark:text-gray-400 dark:hover:bg-white/5 dark:hover:text-white"
 							>
 								<svg

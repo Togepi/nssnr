@@ -7,7 +7,6 @@
 		StrikethroughButton,
 		FormatCodeButton,
 		DropDownAlign,
-		FontFamilyDropDown,
 		FontSizeDropDown,
 		Toolbar
 	} from 'svelte-lexical';
@@ -15,7 +14,6 @@
 
 <Toolbar>
 	{#snippet children({ editor: _editor, activeEditor: _activeEditor, blockType: _blockType })}
-		<FontFamilyDropDown />
 		<FontSizeDropDown />
 		<Divider />
 		<BoldButton />

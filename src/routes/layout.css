@@ -2,7 +2,7 @@
 @import 'tailwindcss';
 
 @theme {
-	--font-geist: 'Poppins', sans-serif;
+	--font-geist: system-ui, sans-serif;
 	--font-serif: 'Bespoke Slab', serif;
 }
 :root {
@@ -28,7 +28,7 @@
 		@apply flex items-center justify-between;
 	}
 	.prose {
-		@apply mx-auto max-w-2xl space-y-4 px-5 font-serif md:pt-44 xl:px-0 pt-44 md:pt-0;
+		@apply mx-auto max-w-2xl space-y-4 px-5 pt-44 font-serif md:pt-12 xl:px-0;
 	}
 	.title {
 		@apply text-5xl font-bold;
