@@ -2,6 +2,7 @@
 	import { MenuIcon, MoveRight, X } from '@lucide/svelte';
 	import sidebarLink from '../sidebarLink.json';
 	import discord from '$lib/assets/discord.svg';
+	import { resolve } from '$app/paths';
 	let isMenuOpen = $state(false);
 </script>
 
@@ -24,6 +25,12 @@
 			}}><X size={44} class="m-5" /></button
 		>
 		<div class="space-y-5 px-12">
+			<a
+				href={resolve('/account')}
+				class="mr-5 flex items-center justify-center gap-5 rounded-full border border-stone-400 p-2 px-5 text-center"
+				>Votre personnage</a
+			>
+
 			<a
 				href="https://discord.gg/Kh5z3TpBr"
 				rel="external"
