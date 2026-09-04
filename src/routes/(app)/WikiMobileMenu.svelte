@@ -32,7 +32,7 @@
 			>
 
 			<a
-				href="https://discord.gg/Kh5z3TpBr"
+				href="https://discord.gg/VeQAnqcRHW"
 				rel="external"
 				class="btn-secondary flex items-center gap-2"
 				>Serveur discord <img src={discord} alt="icone discord" class="h-6 w-6" />

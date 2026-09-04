@@ -227,12 +227,6 @@
 			"specializations": ["Métaux", "Bois", "Plastiques", "Champignons", "Cuirs", "Chimiques"]
 		},
 		{
-			"name": "Contact",
-			"cost": 3,
-			"description": "Permet d’explorer le monde via un pion et obtenir infos/ressources.",
-			"prerequisites": []
-		},
-		{
 			"name": "Bizness",
 			"cost": 3,
 			"description": "Votre famille produit nourriture, alcool ou bêtes vendables.",

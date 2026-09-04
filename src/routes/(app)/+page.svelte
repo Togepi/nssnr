@@ -3,7 +3,7 @@
 </script>
 
 <section style="background-image: url(/images/bg/landing_intention_bg.jpg);" class="bg-right">
-	<div class="m-auto max-w-5xl py-44 text-center text-stone-50 px-5 md:px-0">
+	<div class="m-auto max-w-5xl px-5 py-44 text-center text-stone-50 md:px-0">
 		<div class="mb-12 flex justify-center">
 			<a
 				rel="external"
@@ -17,8 +17,8 @@
 			</a>
 		</div>
 
-		<h1 class="md:text-6xl text-4xl font-semibold tracking-tighter text-balance">
-			Nssn Lune Rouge, le jeu de rôle grandeur nature
+		<h1 class="text-4xl font-semibold tracking-tighter text-balance md:text-6xl">
+			NSSN Lune Rouge, le jeu de rôle grandeur nature
 		</h1>
 
 		<div class="font-futur mt-6 space-y-2 text-4xl font-semibold">
@@ -26,14 +26,22 @@
 		</div>
 
 		<div class="mt-6 flex items-center justify-center gap-6">
-			<a href="https://www.gn-romandie.ch/events.html?reshproduct=151" rel="external" class="btn border border-stone-900">Vous pouvez commander vos billets ici <ArrowUpRight/> </a>
+			<a
+				href="https://www.gn-romandie.ch/events.html?reshproduct=151"
+				rel="external"
+				class="btn border border-stone-900"
+				>Vous pouvez commander vos billets ici <ArrowUpRight />
+			</a>
 		</div>
 	</div>
 </section>
 
 <main class="prose mx-auto max-w-2xl">
 	<h1 class="mt-24">Note d’Intention du GN</h1>
-	<p class="border rounded-2xl border-red-800 text-red-500 p-2 text-sm">Une partie des règles du GN sont en reconstructions et peuvent être amenées à changer dans le futur. Mais la majorité du jeu est déjà établi.</p>
+	<p class="rounded-2xl border border-red-800 p-2 text-sm text-red-500">
+		Une partie des règles du GN sont en reconstructions et peuvent être amenées à changer dans le
+		futur. Mais la majorité du jeu est déjà établi.
+	</p>
 	<h2>Synopsis</h2>
 	<p>
 		Il y deux semaines, une comète écarlate a traversé le ciel du Petit Monde. Elle a appontée le

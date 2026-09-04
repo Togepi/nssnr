@@ -30,7 +30,7 @@
 		</li>
 		<li>
 			<a
-				href="https://discord.gg/Kh5z3TpBr"
+				href="https://discord.gg/VeQAnqcRHW"
 				rel="external"
 				class="mr-5 flex items-center justify-between gap-5 rounded-full border border-stone-400 p-2 px-5"
 				>Discord <img src={discord} alt="icone discord" class="h-6 w-6" /></a

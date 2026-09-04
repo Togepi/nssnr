@@ -1,6 +1,10 @@
-<main class="mx-auto max-w-2xl prose" >
+<main class="prose mx-auto max-w-2xl">
 	<h1>Créer son personnage</h1>
 	<h2 id="0-regardez-un-résumé-de-lunivers">0. Regardez un résumé de l’univers</h2>
+	<p>
+		Pour créer votre personnage, veuillez cliquez sur l'icone "votre personnage" dans la barre de
+		navigation. Cela permet d'accéder à au formulaire de création de personnage.
+	</p>
 	<p>
 		Ce document de création ne répète pas ce qui est déjà fourni dans les résumés de l’univers (PDF
 		et Vidéo), je vous invite à les lire pour plus de clarté. Cependant, comme l’univers prend ses
