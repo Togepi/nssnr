@@ -22,7 +22,7 @@
 		</h1>
 
 		<div class="font-futur mt-6 space-y-2 text-4xl font-semibold">
-			<p class="text-center">31 octobre - Genève - 100chf</p>
+			<p class="text-center">31 octobre et 1 novembre - Genève - 100chf</p>
 		</div>
 
 		<div class="mt-6 flex items-center justify-center gap-6">
