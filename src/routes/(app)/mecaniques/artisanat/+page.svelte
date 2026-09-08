@@ -124,7 +124,7 @@
 						</tr>
 					</thead>
 					<tbody class="divide-y divide-gray-200 bg-white">
-						{#each bricolage as { id, nom, composants, effet, lieu } (id)}
+						{#each domaine as { id, nom, composants, effet, lieu } (id)}
 							<tr class="hover:bg-gray-50">
 								<td
 									class="border-r border-r-gray-200 px-6 py-4 font-semibold whitespace-nowrap text-gray-900"
