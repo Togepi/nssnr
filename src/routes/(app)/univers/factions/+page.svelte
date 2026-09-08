@@ -1,10 +1,10 @@
 <div class="prose">
 	<h1>Les factions</h1>
-	<h2>Crépuscule sanglant</h2>
-	<img src="./images/crepuscule_mobile.jpg" alt="" />
-	<h3>Thèmes: Combat, cérémonie, maintient de l’ordre</h3>
-	<h4>Bonus de faction : Vous avez la compétence “Chevalier”
-</h4>
+	<h2><span class="text-3xl">Crépuscule sanglant</span></h2>
+	<h4>
+		<span class="text-amber-800">Bonus de faction : </span> Vous pouvez prendre une compétence supplémentaire
+		de votre choix.
+	</h4>
 	<p>
 		La faction armée du culte. Elle veille à la protection du sanctuaire et de ses principes.
 		Intransigeant mais juste, le Crépuscule bénéficie d’un soutien financier conséquent et d’un sens
@@ -14,11 +14,10 @@
 		devient alors une arme de destruction massive inarrêtable, guidée seulement par sa prophétie.
 	</p>
 
-	<h2>Aube Écarlate</h2>
-	<img src="./images/aube_mobile.jpg" alt="" />
-	<h3>Thèmes: Négociation, politique, marchandage</h3>
-	<h4>Bonus de faction : Accès au coffre de faction ( ressources supplémentaires)
-</h4>
+	<h2><span class="text-3xl">Aube Écarlate</span></h2>
+	<h4>
+		<span class="text-amber-800">Bonus de faction : </span> Commence le jeu avec 1x secret
+	</h4>
 	<p>
 		La faction marchante du culte. Plus pragmatique que le Crépuscule, l'Aube saisit chaque
 		opportunité d’enrichir le Culte. Elle finance aussi la propagation du Culte en dehors de ses
@@ -28,11 +27,11 @@
 		ouvrir bien des portes.
 	</p>
 
-	<h2>Scientifiques de Drnk’ha</h2>
-	<img src="./images/science_mobile.jpg" alt="" />
-	<h3>Thèmes: Recherche, enquête,négociation</h3>
-	<h4>Bonus de faction : Tous les timings liés aux compétences d’artisanats sont divisé par deux. (la science est découverte deux fois plus vite aussi)
-</h4>
+	<h2><span class="text-3xl">Scientifiques de Drnk’ha</span></h2>
+
+	<h4>
+		<span class="text-amber-800">Bonus de faction : </span> Commence avec la compétence science
+	</h4>
 	<p>
 		La science sait reconnaître ses opportunités, et cette comète est une aubaine.
 		Malencontreusement, elle a atterri dans un village d'écervelés fanatiques. La connaissance n’a
@@ -41,24 +40,56 @@
 		documents originels. La raison ne suffira pas, il va falloir ruser.
 	</p>
 
-	<h2>Chasseuses de trésors</h2>
-	<img src="./images/tresor_mobile.jpg" alt="" />
-	<h3>Thèmes:Aventure, roublardise, négociation</h3>
-	<h4>Bonus de faction : Vous commencez avec un trésor mineur (équivalent 4 pe)
-</h4>
+	<h2><span class="text-3xl">Les Kobolds</span></h2>
+	<h4>
+		<span class="text-amber-800">Bonus de faction : </span> Commence le jeu avec 12x athlétisme, mais
+		ne peut l’utiliser que pour fuir, et seulement en extérieur
+	</h4>
 	<p>
-		L’argent, voilà une motivation bien plus pragmatique que ce que peuvent vous vendre les autres
-		factions. Un esprit d’aventure peut habiter certaines chasseuses, mais l’âge les calmera.
-		Malotrus, roublard ou pillard,nous redoublons d’ingéniosité quand nous rencontrons une nouvelle
-		motivation (souvent matérielle, hehe). Sait-on jamais, Un petit morceau de comète est si vite
-		tombé dans la poche
+		Une fratrie qui survit de larcins, de musique et de petites ruses. Leurs instruments bricolés –
+		tambours de bidons, flûtes d’os, cordes de fer – rythment leurs errances et amusent parfois les
+		passants. Cette famille est osbédée par une couronne, la personne qui la porte en devient alors
+		le chef. Le monde, vaste et occupé à ses propres malheurs, leur est indifférent. Les grandes
+		races ne s’intéressent pas à leur sort. Ni haine, ni pitié : seulement l’oubli. Et c’est
+		peut-être mieux ainsi.
 	</p>
-	<h2>Votre faction</h2>
+	<h2><span class="text-3xl">La 17ème Compagnie</span></h2>
+	<h4>
+		<span class="text-amber-800">Bonus de faction : </span> Quand vous tuez un PNJ, vous gagnez 10 unités.
+	</h4>
 	<p>
-		Vous n’avez aucune obligation de rejoindre l’une des factions déjà créés. Nous vous encourageons
-		même à créer votre propre clan. Je vous conseille de vous focaliser en priorité sur vos
-		objectifs de clan, car cela dictera les quêtes que nous vous créerons. Si vous souhaitez créer
-		un clan, merci de nous prévenir le plus tôt possible. Et de nous fournir ou moins une ébauche
-		avant le 1er août.
+		Une troupe de nains mercenaires surarmés qui s’active pour le culte, mais rien ne les empêche de
+		de se mettre aux services d’autres factions. L’argent fait foi. Leur tâche première consiste à
+		protéger la comète.
+	</p>
+	<h2><span class="text-3xl">Le Zénith Noir</span></h2>
+	<h4>
+		<span class="text-amber-800">Bonus de faction : </span> commence la partie avec 24 de pétroles, possède
+		le cours de bourses Total (Trouvaille d’Or Totalement Aléatoire et Liquide)
+	</h4>
+	<p>
+		Le Zénith Noir est la troisième voie de la Lune Rouge. Une branche orthodoxe qui voit le
+		renouveau du monde par le matériel. La Prophétie n’est pas ultime, elle n’est que le
+		commencement. Ces intérprétations pécunières des Prophéties n’ont pour l’instant pas concainvue
+		beaucoup de monde. Pourtant, ses membres sembleent avoir été touchées par la grâce de la déesse.
+		Par ses lectures ésotériques, une membre a trouvé l’emplacment d’un puit de prétrole.
+		Aujourd'hui, après avoir été moqué, le Znétih Noir revient avec l’argument de l’argent.
+	</p>
+	<h2><span class="text-3xl">Le Gang des Mille Yeux</span></h2>
+	<h4>
+		<span class="text-amber-800">Bonus de faction : </span> Vous pouvez prendre une espèce supplémentaire
+		ou 1 seule dont vous doublez le bonus.
+	</h4>
+	<p>
+		Dans l’ombre du Petit Monde, s’affaire un groupe que peu de gens connaissent, un gang se
+		reconnaissant par le tatouage d'œil que ses membres portent toutes sur une partie de leur corps.
+		Les habitantes des bas-fonds, les savantes folles, et autres parias savent qu’il se nomme le
+		gang des Mille Yeux. Elles savent aussi que le gang est un fournisseur de choix pour les
+		champignons, drogues et autres denrées plus ou moins illégales. Les acheteuses savent aussi que
+		l’argent n’est pas le meilleur moyen d’avoir les faveurs du Gang, le troc est leur manière
+		principale de faire du commerce. Cependant le troc préféré du gang est celui des objets
+		magiques, ou ayant un lien avec la magie. Certaines de leurs “clientes” disent avoir été
+		troqueuse malgré elles, le gang ayant une notion de la possession bien à lui. Et personne n’a
+		jamais su comment le gang se procure ses champignons. Mais ce ne sont que des rumeurs.
 	</p>
 </div>

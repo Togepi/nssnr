@@ -1,0 +1,117 @@
+[
+	{
+		"id": 1,
+		"nom": "Empreinte mémorielle",
+		"composants": {
+			"Métaux": 2,
+			"Plastiques": 2,
+			"Chimiques": 6
+		},
+		"lieu": "Atelier",
+		"effet": "Sauvegarde les souvenirs d'un personnage sur une barrette physique."
+	},
+	{
+		"id": 2,
+		"nom": "Lobotomie",
+		"composants": {
+			"Chimiques": 5,
+			"temps": "10 min d'opération"
+		},
+		"lieu": "Atelier",
+		"effet": "Efface la mémoire d'une personne et/ou y injecte une 'Empreinte mémorielle'. La personne peut avoir la mémoire d'une autre ou deux mémoires qui se mélangent."
+	},
+	{
+		"id": 3,
+		"nom": "Robotisation",
+		"composants": {
+			"Métaux": 10,
+			"Plastiques": 5,
+			"Chimiques": 5,
+			"temps": "10 min d'opération"
+		},
+		"lieu": "Atelier",
+		"effet": "Change l'espèce d'un personnage en robot."
+	},
+	{
+		"id": 4,
+		"nom": "Rayon de la mort",
+		"composants": {
+			"Métaux": 10,
+			"Bois": 5,
+			"Plastiques": 3
+		},
+		"lieu": "Atelier",
+		"effet": "Créer une arme lourde qui consomme une Batterie+."
+	},
+	{
+		"id": 5,
+		"nom": "Frankenstein",
+		"composants": {
+			"Cuirs": 10,
+			"Chimiques": 5
+		},
+		"lieu": "Atelier",
+		"effet": "Ranime un personnage mort, même cannibalisé. Puis maquillage mort vivant."
+	},
+	{
+		"id": 6,
+		"nom": "Batterie+",
+		"composants": {
+			"Métal": 1,
+			"Plastique": 1,
+			"Chimiques": 2
+		},
+		"lieu": "Atelier",
+		"effet": "Composant, robot."
+	},
+	{
+		"id": 7,
+		"nom": "Bombe humaine",
+		"composants": {
+			"Plastiques": 3,
+			"Chimiques": 3
+		},
+		"lieu": "Atelier",
+		"effet": "1x lorsque vous mourez, vous explosez en mettant le feu à tout dans un rayon de 10m."
+	},
+	{
+		"id": 8,
+		"nom": "Prothèse simple",
+		"composants": {
+			"Plastiques": 5,
+			"Bois/Métaux": 2
+		},
+		"lieu": "Atelier",
+		"effet": "Permet de réutiliser un membre. Nécessite d'être installée par une médecin. Le membre peut être réparé par une ingénieur en 3min, mais plus par une médecin."
+	},
+	{
+		"id": 9,
+		"nom": "Bombe à large rayon",
+		"composants": {
+			"Métaux": 2,
+			"Plastiques": 5,
+			"Chimiques": 5
+		},
+		"lieu": "Atelier",
+		"effet": "S'utilise avec la carte, incapacite une zone sur la carte."
+	},
+	{
+		"id": 10,
+		"nom": "Expérimentations aléatoires",
+		"composants": {
+			"Chimiques": 15,
+			"temps": "10 min"
+		},
+		"lieu": "Atelier",
+		"effet": "En passant 10min à faire des calculs complexes et des expériences chimiques, vous pouvez poser une question fermée aux orgas et ils vous répondront."
+	},
+	{
+		"id": 11,
+		"nom": "Tentacule Chimique",
+		"composants": {
+			"Chimiques": 15
+		},
+		"lieu": "Atelier",
+		"effet": "Utilisable 3x, criez 'Attraction ! Tu es attiré vers moi !' et une personne doit venir vers vous."
+	}
+]

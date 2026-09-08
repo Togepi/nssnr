@@ -1,0 +1,128 @@
+[
+	{
+		"id": 1,
+		"nom": "Quickmed",
+		"composants": {
+			"Blanc": 1,
+			"Bleu": 1
+		},
+		"lieu": "Partout",
+		"effet": "Soigne un personnage 2PV et une fracture."
+	},
+	{
+		"id": 2,
+		"nom": "Clarté",
+		"composants": {
+			"Blanc": 1,
+			"Brun": 1
+		},
+		"lieu": "Partout",
+		"effet": "Rend heureux et euphorique (30min)."
+	},
+	{
+		"id": 3,
+		"nom": "Effaceur",
+		"composants": {
+			"Noir": 2
+		},
+		"lieu": "Partout",
+		"effet": "Oublie ce qu'il s'est passé les dernières 4h."
+	},
+	{
+		"id": 4,
+		"nom": "Feint-la-mort",
+		"composants": {
+			"Noir": 1,
+			"Vert": 1
+		},
+		"lieu": "Partout",
+		"effet": "Tombe en coma artificiel et peut se réveiller quand iel veut (indétectable)."
+	},
+	{
+		"id": 5,
+		"nom": "Peau d'acier",
+		"composants": {
+			"Vert": 1,
+			"Blanc": 1
+		},
+		"lieu": "Partout",
+		"effet": "Gagne +2PV max, pendant 1h."
+	},
+	{
+		"id": 6,
+		"nom": "Antibiotiques",
+		"composants": {
+			"Vert": 1,
+			"Bleu": 1
+		},
+		"lieu": "Partout",
+		"effet": "Soigne les maladies."
+	},
+	{
+		"id": 7,
+		"nom": "Déjà-vu",
+		"composants": {
+			"Brun": 1,
+			"Bleu": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Hallucination, voir les Orgas."
+	},
+	{
+		"id": 8,
+		"nom": "Overdoseur",
+		"composants": {
+			"Noir": 2,
+			"Brun": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Overdose et tombe dans le coma."
+	},
+	{
+		"id": 9,
+		"nom": "Stimulant",
+		"composants": {
+			"Blanc": 1,
+			"Noir": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Gagne 1x Esquive ou Athlétisme (sprint)."
+	},
+	{
+		"id": 10,
+		"nom": "Calmant pour Kereva",
+		"composants": {
+			"Blanc": 2
+		},
+		"lieu": "Infirmerie",
+		"effet": "La personne s'endort pendant 3min."
+	},
+	{
+		"id": 11,
+		"nom": "Lutranox",
+		"composants": {
+			"Bleu": 2
+		},
+		"lieu": "Infirmerie",
+		"effet": "Rend une personne sympathique, mais rend les lutines complètement détachés de leurs émotions pendant 1h."
+	},
+	{
+		"id": 12,
+		"nom": "Dernier souffle",
+		"composants": {
+			"Blanc": 2,
+			"Bleu": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Lorsque vos PV tombent à 0, continuez de vous battre/faire qqch, pendant 10sec."
+	},
+	{
+		"id": 13,
+		"nom": "Granulé alimentaire / Compostage",
+		"composants": {
+			"champignons": 5
+		},
+		"lieu": "Infirmerie",
+		"effet": "Généralement inutile, sauf pour les Businessmans."
+	}
+]

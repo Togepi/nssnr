@@ -1,0 +1,69 @@
+[
+	{
+		"id": 1,
+		"nom": "Modification génétique - Groupe 01",
+		"composants": {
+			"Chimiques": 5,
+			"temps": "10min d'opération"
+		},
+		"lieu": "Infirmerie",
+		"effet": "Choix entre : Vampirisme (VP) : Vous pouvez boire le sang d'un être vivant pour vous soigner (PV et Fractures) mais vous devez vous cacher du soleil et des lumières UV. Sang Alcalin (SA) : Lorsque vous subissez un dégât (pas sur l'armure) vous pouvez éclabousser un adversaire au contact de votre sang alcalin pour le brûler et lui infliger un dégât. Donneur universel (DU) : 1x/heure, votre sang peut être donné à toutes les espèces (sauf les robots) pour les soigner. Vous pouvez donner un PV par transfusion."
+	},
+	{
+		"id": 2,
+		"nom": "Modification génétique - Groupe 02",
+		"composants": {
+			"Chimiques": 5,
+			"temps": "10min d'opération"
+		},
+		"lieu": "Infirmerie",
+		"effet": "Choix entre : Lame en os rétractable (LR) : Vous pouvez toujours garder une dague sur vous, elle est invisible et intouchable jusqu'à être dégainée. Second cœur (SC) : +1PV définitif. Peau mycélium (PM) : Générez 1x champignon par heure."
+	},
+	{
+		"id": 3,
+		"nom": "Modification génétique - Groupe 03",
+		"composants": {},
+		"lieu": "",
+		"effet": "Impossible."
+	},
+	{
+		"id": 4,
+		"nom": "Modification génétique - Groupe 04",
+		"composants": {
+			"Chimiques": 5,
+			"temps": "10min d'opération"
+		},
+		"lieu": "Infirmerie",
+		"effet": "Choix entre : Paupière de lézard (PL) : Vous résistez aux aveuglements. Glande Acide (GA) : 1x/heure vous pouvez cracher de l'acide à 3m et infliger 4 dégâts à l'armure de l'adversaire. Phéromones (PH) (Charme) : 1x/jour : Si vous courtisez une personne pendant au moins une heure, vous pouvez charmer cette personne. La personne ne perd pas son libre arbitre mais s'est terriblement éprise de vous. Triple ce pouvoir pour les faunes. Toile d'araignée (TA) : 1x/heure vous pouvez immobiliser une adversaire pendant 15 secondes."
+	},
+	{
+		"id": 5,
+		"nom": "Modification génétique - Groupe 05",
+		"composants": {
+			"Chimiques": 5,
+			"temps": "10min d'opération"
+		},
+		"lieu": "Infirmerie",
+		"effet": "Choix entre : Poumons solides (PS) : Vous pouvez ignorer les gaz toxiques, effets de gaz, toux et techniquement rester longtemps en apnée (contextuellement). Hyperconcentration (HC) : 1x/jour, tout le monde autour de vous doit jouer au ralenti pendant 15 secondes. Dents de Nécrophage : 1x/jour, le personnage peut pratiquer un 'cannibalisme' en 3 min sur un autre personnage non-robot."
+	},
+	{
+		"id": 6,
+		"nom": "Clonage",
+		"composants": {
+			"temps": "10min",
+			"Chimiques": 5,
+			"Personnage mort": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Vous pouvez créer un clone d'un personnage mort, il est identique au précédent à la différence qu'il n'y a aucun souvenir. Le clone n'a qu'une durée de vie d'un an et vieillit à un rythme rapide."
+	},
+	{
+		"id": 7,
+		"nom": "Tests génétiques",
+		"composants": {
+			"temps": "5min"
+		},
+		"lieu": "Infirmerie",
+		"effet": "Après une prise de sang d'un personnage : posez une question au personnage ou à un organisateur liée aux gènes du personnage. Impossible de mentir à cette question."
+	}
+]

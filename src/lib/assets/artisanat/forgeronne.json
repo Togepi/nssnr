@@ -1,0 +1,120 @@
+[
+	{
+		"id": 1,
+		"nom": "Arme de lancer",
+		"composants": {
+			"Métaux": 2
+		},
+		"lieu": "Partout",
+		"effet": "arme"
+	},
+	{
+		"id": 2,
+		"nom": "Dague",
+		"composants": {
+			"Métaux": 2,
+			"Bois": 1
+		},
+		"lieu": "Partout",
+		"effet": "arme (40 cm ou moins)"
+	},
+	{
+		"id": 3,
+		"nom": "Courte",
+		"composants": {
+			"Métaux": 4,
+			"Bois": 1
+		},
+		"lieu": "Partout",
+		"effet": "arme (80 cm ou moins)"
+	},
+	{
+		"id": 4,
+		"nom": "Longue",
+		"composants": {
+			"Métaux": 5,
+			"Bois": 1
+		},
+		"lieu": "Partout",
+		"effet": "arme (120 cm ou moins)"
+	},
+	{
+		"id": 5,
+		"nom": "Extra-Longue",
+		"composants": {
+			"Métaux": 9,
+			"Bois": 1
+		},
+		"lieu": "Atelier",
+		"effet": "arme (120 cm ou plus)"
+	},
+	{
+		"id": 6,
+		"nom": "Bouclier",
+		"composants": {
+			"Métaux": 5,
+			"Bois": 5
+		},
+		"lieu": "Atelier",
+		"effet": "arme"
+	},
+	{
+		"id": 7,
+		"nom": "Arc/Arbalète",
+		"composants": {
+			"Métaux": 2,
+			"Bois": 5
+		},
+		"lieu": "Atelier",
+		"effet": "arme"
+	},
+	{
+		"id": 8,
+		"nom": "Armure moyenne",
+		"composants": {
+			"Métaux ou Bois": 3,
+			"cuir": 2
+		},
+		"lieu": "Atelier",
+		"effet": "armure (4pts)"
+	},
+	{
+		"id": 9,
+		"nom": "Armure lourde",
+		"composants": {
+			"Métaux": 20,
+			"cuir": 5
+		},
+		"lieu": "Atelier",
+		"effet": "armure (8pts)"
+	},
+	{
+		"id": 10,
+		"nom": "Réparer une armure efficacement",
+		"composants": {
+			"Métaux": "?x"
+		},
+		"lieu": "Partout",
+		"effet": "Rend 4pts à l'armure par Métaux."
+	},
+	{
+		"id": 11,
+		"nom": "Batterie+",
+		"composants": {
+			"Métaux": 2,
+			"Plastique": 1,
+			"Chimiques": 2
+		},
+		"lieu": "Atelier",
+		"effet": "Composant pour robot"
+	},
+	{
+		"id": 12,
+		"nom": "Aiguiser la lame / Lester la masse",
+		"composants": {
+			"Cuir": 1
+		},
+		"lieu": "Partout",
+		"effet": "Le prochain coup porté avec une arme de mêlée inflige +1 dégât."
+	}
+]

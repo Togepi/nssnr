@@ -1,0 +1,186 @@
+[
+	{
+		"id": 1,
+		"nom": "Batterie+",
+		"composants": {
+			"Métaux": 2,
+			"Plastique": 1,
+			"Chimiques": 2
+		},
+		"lieu": "Partout",
+		"effet": "Composant, robot."
+	},
+	{
+		"id": 2,
+		"nom": "Pistolet",
+		"composants": {
+			"Métaux": 5,
+			"Bois": 2
+		},
+		"lieu": "Partout",
+		"effet": "Arme."
+	},
+	{
+		"id": 3,
+		"nom": "6x Munitions",
+		"composants": {
+			"Métaux": 2,
+			"Chimiques": 2
+		},
+		"lieu": "Partout",
+		"effet": "Munition pour arme à feu."
+	},
+	{
+		"id": 4,
+		"nom": "Dague",
+		"composants": {
+			"Métaux": 2,
+			"Bois": 1
+		},
+		"lieu": "Partout",
+		"effet": "Arme (40 cm ou moins)."
+	},
+	{
+		"id": 5,
+		"nom": "Réparer une armure",
+		"composants": {
+			"Métaux": "?x"
+		},
+		"lieu": "Partout",
+		"effet": "Rend 2pts à l'armure par Métaux."
+	},
+	{
+		"id": 6,
+		"nom": "Aiguiser la lame / Lester la masse",
+		"composants": {
+			"Cuir": 1
+		},
+		"lieu": "Partout",
+		"effet": "Le prochain coup porté avec une arme de mêlée inflige +1 dégât."
+	},
+	{
+		"id": 7,
+		"nom": "Prothèse simple",
+		"composants": {
+			"Plastiques": 5,
+			"Bois/Métaux": 2
+		},
+		"lieu": "Partout",
+		"effet": "Permet de réutiliser un membre. Nécessite d'être installée par une médecin. Le membre peut être réparé par un ingénieur en 3min, mais plus par un médecin."
+	},
+	{
+		"id": 8,
+		"nom": "Fausse dent au cyanure",
+		"composants": {
+			"Plastiques": 1,
+			"Chimiques": 3
+		},
+		"lieu": "Partout",
+		"effet": "Vous permet de quitter ce monde selon vos termes."
+	},
+	{
+		"id": 9,
+		"nom": "Expérimentations aléatoires",
+		"composants": {
+			"Chimiques": 20
+		},
+		"lieu": "Atelier",
+		"effet": "En passant 10min à faire des calculs complexes et des expériences chimiques, vous pouvez poser une question fermée aux orgas et iels vous répondront."
+	},
+	{
+		"id": 10,
+		"nom": "Munition perce-armure",
+		"composants": {
+			"munitions usées": 5
+		},
+		"lieu": "Partout",
+		"effet": "Annoncez 'Brise-bouclier !' lorsque vous tirez sur une adversaire."
+	},
+	{
+		"id": 11,
+		"nom": "Kit d'attachement",
+		"composants": {
+			"Cuir": 1
+		},
+		"lieu": "Partout",
+		"effet": "1x/objet : vous permet de ligoter un personnage jusqu'à ce qu'il soit libéré. Le personnage peut se libérer avec 'Force'. Vous pouvez monter le coût de cette recette à 3x Cuirs pour que même un personnage avec 'Force' ne puisse pas se libérer."
+	},
+	{
+		"id": 12,
+		"nom": "Renforts temporaires",
+		"composants": {
+			"Cuirs": 2
+		},
+		"lieu": "Partout",
+		"effet": "+2pts d'armure. Quand les 2pts d'armure sont utilisés, ils ne peuvent pas être réparés."
+	},
+	{
+		"id": 13,
+		"nom": "Quickmed",
+		"composants": {
+			"Blanc": 1,
+			"Bleu": 1
+		},
+		"lieu": "Partout",
+		"effet": "Soigne un personnage 2PV et une fracture."
+	},
+	{
+		"id": 14,
+		"nom": "Antibiotiques",
+		"composants": {
+			"Vert": 1,
+			"Bleu": 1
+		},
+		"lieu": "Partout",
+		"effet": "Soigne les maladies."
+	},
+	{
+		"id": 15,
+		"nom": "Pastis des pierres",
+		"composants": {
+			"Vert": 1,
+			"Chimique": 1
+		},
+		"lieu": "Partout",
+		"effet": "Vous donne 1PV maximum supplémentaire temporaire (cumulatif)."
+	},
+	{
+		"id": 16,
+		"nom": "Sang de Mycéanéen",
+		"composants": {
+			"fracture à un Mycéanéen": 1,
+			"Noir": 1
+		},
+		"lieu": "Partout",
+		"effet": "Hallucinations lourdes pendant 1h."
+	},
+	{
+		"id": 17,
+		"nom": "Couture",
+		"composants": {},
+		"lieu": "Partout",
+		"effet": "Réparez une armure légère (3min)."
+	},
+	{
+		"id": 18,
+		"nom": "Bombe à large rayon",
+		"composants": {
+			"Métaux": 2,
+			"Plastiques": 5,
+			"Chimiques": 5
+		},
+		"lieu": "Atelier",
+		"effet": "S'utilise avec la compétence 'contact', incapacite un lieu sur la carte."
+	},
+	{
+		"id": 19,
+		"nom": "Ouvrir son cœur",
+		"composants": {
+			"Brun": 2,
+			"Vert": 3,
+			"Bleu": 1
+		},
+		"lieu": "Partout",
+		"effet": "Pendant 1h : Vous devenez persuadé que chaque chose que l'on vous dit est la vérité. À vous de faire un choix en cas d'idées contradictoires. Après le trip : Assimilez toutes vos nouvelles connaissances. Gagnez un discours inspirant (Discours + Inspirant)."
+	}
+]

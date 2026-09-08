@@ -1,0 +1,128 @@
+[
+	{
+		"id": 1,
+		"nom": "Pistolet",
+		"composants": {
+			"Métaux": 5,
+			"Bois": 2
+		},
+		"lieu": "Atelier",
+		"effet": "arme"
+	},
+	{
+		"id": 2,
+		"nom": "Fusil",
+		"composants": {
+			"Métaux": 8,
+			"Bois": 3
+		},
+		"lieu": "Atelier",
+		"effet": "arme."
+	},
+	{
+		"id": 3,
+		"nom": "Grenade",
+		"composants": {
+			"Métaux": 3,
+			"Chimiques": 5
+		},
+		"lieu": "Partout",
+		"effet": "arme, boom."
+	},
+	{
+		"id": 4,
+		"nom": "Grenade Flash",
+		"composants": {
+			"Métaux": 2,
+			"Bois": 1,
+			"Chimiques": 2
+		},
+		"lieu": "Partout",
+		"effet": "arme, aveugle/sourd 10sec."
+	},
+	{
+		"id": 5,
+		"nom": "Arme lourde",
+		"composants": {
+			"Métaux": 20,
+			"Bois": 5,
+			"Plastiques": 3
+		},
+		"lieu": "Atelier",
+		"effet": "arme lourde, boom."
+	},
+	{
+		"id": 6,
+		"nom": "Batterie+",
+		"composants": {
+			"Métaux": 2,
+			"Plastique": 1,
+			"Chimiques": 2
+		},
+		"lieu": "Atelier",
+		"effet": "composant, robot."
+	},
+	{
+		"id": 7,
+		"nom": "6x Munitions",
+		"composants": {
+			"Métaux": 2,
+			"Chimiques": 2
+		},
+		"lieu": "Partout",
+		"effet": "munition pour arme à feu."
+	},
+	{
+		"id": 8,
+		"nom": "1x Munition lourde",
+		"composants": {
+			"Métaux": 5,
+			"Chimiques": 2
+		},
+		"lieu": "Atelier",
+		"effet": "munition pour arme lourde."
+	},
+	{
+		"id": 9,
+		"nom": "Bombe à large rayon",
+		"composants": {
+			"Métaux": 2,
+			"Plastiques": 5,
+			"Chimiques": 5
+		},
+		"lieu": "Atelier",
+		"effet": "S'utilise avec la carte, incapacite une zone sur la carte."
+	},
+	{
+		"id": 10,
+		"nom": "Bracelet explosif",
+		"composants": {
+			"Métal": 1,
+			"Plastiques": 3,
+			"Chimiques": 3
+		},
+		"lieu": "Atelier",
+		"effet": "se pose sur la jambe d'un criminel. Le porteur du détonateur peut choisir de lui faire perdre sa jambe à tout moment. Peut être adapté sur d'autres membres."
+	},
+	{
+		"id": 11,
+		"nom": "Bombe extincteur",
+		"composants": {
+			"Plastiques": 3,
+			"Chimiques": 4
+		},
+		"lieu": "Atelier",
+		"effet": "nullifie toutes les flammes dans un rayon de 15m pendant 5 min."
+	},
+	{
+		"id": 12,
+		"nom": "Bombe incendiaire",
+		"composants": {
+			"Métaux/Bois": 3,
+			"Chimiques": 3,
+			"Plastiques": 3
+		},
+		"lieu": "Atelier",
+		"effet": "force toutes les personnes dans un rayon de 10m de se rouler au sol pendant 30 sec pour s'éteindre."
+	}
+]

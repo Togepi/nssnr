@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "nom": "Aiguiser la lame / Lester la masse",
+    "composants": {
+      "Cuir": 1
+    },
+    "lieu": "Partout",
+    "effet": "Le prochain coup porté avec une arme de mêlée inflige +1 dégât."
+  },
+  {
+    "id": 2,
+    "nom": "Batterie+",
+    "composants": {
+      "Métaux": 2,
+      "Plastique": 1,
+      "Chimiques": 2
+    },
+    "lieu": "Partout",
+    "effet": "Composant, robot."
+  },
+  {
+    "id": 3,
+    "nom": "Prothèse simple",
+    "composants": {
+      "Plastiques": 5,
+      "Bois/Métaux": 2
+    },
+    "lieu": "Atelier",
+    "effet": "Permet de réutiliser un membre. Nécessite d'être installée par un médecin. Le membre peut être réparé par un ingénieur en 3 min, mais plus par un médecin."
+  },
+  {
+    "id": 4,
+    "nom": "Prothèse supérieure",
+    "composants": {
+      "Plastiques": 15,
+      "Bois/Métaux": 2
+    },
+    "lieu": "Atelier",
+    "effet": "Comme prothèse simple. Rend un membre résistant aux fractures (vous prenez quand même le dégât)."
+  },
+  {
+    "id": 5,
+    "nom": "Mod. Bras Grappin",
+    "composants": {
+      "Métaux": 10,
+      "Plastique": 2,
+      "Bois": 2
+    },
+    "lieu": "Atelier",
+    "effet": "Se place sur une prothèse de bras. En dépensant une Batterie+ vous pouvez attirer un personnage vers vous 3x."
+  },
+  {
+    "id": 6,
+    "nom": "Mod. Ossature en aluminium",
+    "composants": {
+      "Métaux": 5,
+      "Plastiques": 5
+    },
+    "lieu": "Atelier",
+    "effet": "Le squelette ne subit plus de fracture, comme les ulath. Même problème avec l'électricité."
+  },
+  {
+    "id": 7,
+    "nom": "Mod. Crochet plantaire",
+    "composants": {
+      "Métaux": 5,
+      "Plastiques": 5
+    },
+    "lieu": "Atelier",
+    "effet": "Ne peut pas être repoussé ou attiré."
+  },
+  {
+    "id": 8,
+    "nom": "Mod. Mains Taser",
+    "composants": {
+      "Métaux": 3,
+      "Plastiques": 5
+    },
+    "lieu": "Atelier",
+    "effet": "Contre 1x Batterie+, peut assommer un personnage pendant 3 min par un contact par la main. Met les Ulaths dans le coma."
+  },
+  {
+    "id": 9,
+    "nom": "Mod. Mains Ventouses",
+    "composants": {
+      "Métaux": 2,
+      "Plastiques": 6
+    },
+    "lieu": "Atelier",
+    "effet": "Ignore les désarmements."
+  },
+  {
+    "id": 10,
+    "nom": "Extracteur de toxines",
+    "composants": {
+      "Métaux": 2,
+      "Plastiques": 4,
+      "Cuirs": 2
+    },
+    "lieu": "Atelier",
+    "effet": "Ignore le poison contre 1x Batterie+."
+  },
+  {
+    "id": 11,
+    "nom": "Fausse dent au cyanure",
+    "composants": {
+      "Plastiques": 1,
+      "Chimiques": 3
+    },
+    "lieu": "Atelier",
+    "effet": "Vous permet de quitter ce monde selon vos termes."
+  },
+  {
+    "id": 12,
+    "nom": "Mod. jambe détachable",
+    "composants": {
+      "Métaux/Plastiques/Bois": 2,
+      "Métaux/Plastiques/Bois (second)": 2
+    },
+    "lieu": "Atelier",
+    "effet": "1x durant la partie, vous bloquez un piège au sol et ignorez son effet en échange de votre jambe. Peut être adapté aux bras."
+  },
+  {
+    "id": 13,
+    "nom": "Mod. doigts seringue",
+    "composants": {
+      "Métaux": 2,
+      "Plastiques": 2,
+      "Cuirs": 2
+    },
+    "lieu": "Atelier",
+    "effet": "Vous pouvez sortir les personnages du coma en échange de 2x Chimiques."
+  }
+]

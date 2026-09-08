@@ -1,0 +1,120 @@
+[
+	{
+		"id": 1,
+		"nom": "Danse de la joie",
+		"composants": {
+			"Vert": 2,
+			"Blanc": 2
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 1h : Vous êtes heureux et de bonne humeur. Incapable de ressentir de la tristesse. Après le trip : Vous vous sentez fatigué et vous avez besoin de faire une pause."
+	},
+	{
+		"id": 2,
+		"nom": "Hyperconcentration",
+		"composants": {
+			"Noir": 2,
+			"Bleu": 2,
+			"Vert": 2
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 1h : Vous gagnez la compétence 'Science' ou 'Professeur'. Après le trip : Vous avez une migraine de l'enfer pendant 1h et ne pouvez plus utiliser vos compétences."
+	},
+	{
+		"id": 3,
+		"nom": "Lien avec la nature",
+		"composants": {
+			"Blanc": 2,
+			"Bleu": 2,
+			"Brun": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 1h : Vous gagnez la compétence 'Langue des plantes' et vous vous sentez très proche de la nature. Vous pouvez également parler aux Mycéanéenes. Après le trip : Vous vous sentez lourd et avez une aversion à la technologie pendant 1h. Vous détestez l'industrialisation, les robots, et les machines."
+	},
+	{
+		"id": 4,
+		"nom": "Épisode psychotique",
+		"composants": {
+			"Noir": 2,
+			"Brun": 2,
+			"Blanc": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 1h : Vous êtes certains que l'on vous suit, vous entendez des voix et/ou vous avez l'impression que quelqu'un/l'on vous manipule (Ou jouez autre chose du même acabit). Après le trip : Vous êtes revenue sur terre. Vous êtes bien vous. Gagnez 1x Volonté d'acier."
+	},
+	{
+		"id": 5,
+		"nom": "Rencontre du troisième type",
+		"composants": {
+			"Brun": 3,
+			"Vert": 2
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 30min : Vous allez vous perdre dans la forêt et rencontrer des extra-terrestres. Après le trip : Vous allez apprendre des secrets cachés au commun des mortels mais vous allez paraître fou aux autres joueuses (voir les orgas)."
+	},
+	{
+		"id": 6,
+		"nom": "Ouvrir son cœur",
+		"composants": {
+			"Brun": 2,
+			"Vert": 3,
+			"Bleu": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 1h : Vous devenez persuadé que chaque chose que l'on vous dit est la vérité. À vous de faire un choix en cas d'idées contradictoires. Après le trip : Assimilez toutes vos nouvelles connaissances. Gagnez un discours inspirant (Discours + Inspirant)."
+	},
+	{
+		"id": 7,
+		"nom": "Apathie totale",
+		"composants": {
+			"Noir": 2,
+			"Brun": 2,
+			"Blanc": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 1h : Vous ne ressentez rien et devenez insensible à toutes les altérations mentales. Après le trip : Vous considérez la vie comme un jeu. Vous vous sentez en dissociation avec votre corps."
+	},
+	{
+		"id": 8,
+		"nom": "Création d'un Tulpa",
+		"composants": {
+			"Noir": 5,
+			"Brun": 3,
+			"Blanc": 1,
+			"Bleu": 1
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 1h : Vous rencontrez une amie imaginaire qui vous suit pendant vos aventures. Après le trip : Il revient de temps en temps, parfois pour du bien, parfois pour du mal."
+	},
+	{
+		"id": 9,
+		"nom": "Amphétamine de guerre",
+		"composants": {
+			"Vert": 3,
+			"Blanc": 2
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 4h OU Jusqu'à être soigné (médecine/psychologie) : Vous gagnez +1PV et devenez agressive. Vous pensez souvent à démarrer des conflits."
+	},
+	{
+		"id": 10,
+		"nom": "Exploration Zen",
+		"composants": {
+			"Blanc": 5,
+			"Bleu": 5
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 8h OU Jusqu'à être soigné (médecine/psychologie) : Vous devenez pacifiste, vous préférez fuir ou mourir plutôt que de blesser un autre être vivant. Vous souhaitez mettre un terme à la souffrance. Après 8h : Vous devenez immunisé contre les effets de persuasion et les altérations mentales."
+	},
+	{
+		"id": 11,
+		"nom": "Expérience de mort imminente",
+		"composants": {
+			"Noir": 3,
+			"Brun": 3,
+			"Bleu": 3
+		},
+		"lieu": "Infirmerie",
+		"effet": "Pendant 1h : Vous avez l'impression que vous allez mourir à chaque instant d'une crise cardiaque ou d'anévrisme. Vous tenez mal sur vos jambes mais vous êtes toujours consciente. Lancez une pièce après la première demi-heure et seconde demi-heure, sur face, vous tombez à l'agonie. Le trip s'arrête si vous êtes soigné. Après 1h : Vous avez survécu ! Vous gagnez une invincibilité de 10 sec, activable quand vous le souhaitez."
+	}
+]

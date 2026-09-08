@@ -280,7 +280,7 @@
 			"id": "influence-01",
 			"name": "Commerce",
 			"cost": 3,
-			"description": "Permet d’acheter des ressources par paquet de 10.",
+			"description": "Vous pouvez acheter des ressources dans les bizness.",
 			"prerequisites": [],
 			"unique": "yes"
 		},
@@ -288,7 +288,7 @@
 			"id": "influence-02",
 			"name": "Fournisseur",
 			"cost": 2,
-			"description": "Divise par deux le coût d’une ressource spécifique.",
+			"description": "Divise par deux le coût d’une ressource spécifique dans le bizness. ",
 			"prerequisites": ["Commerce"],
 			"notes": "Peut être pris plusieurs fois.",
 			"specializations": ["Métaux", "Bois", "Plastiques", "Champignons", "Cuirs", "Chimiques"],
@@ -296,9 +296,9 @@
 		},
 		{
 			"id": "influence-03",
-			"name": "Contact",
+			"name": "Bourse",
 			"cost": 3,
-			"description": "Permet d’explorer le monde via un pion et obtenir infos/ressources.",
+			"description": "Vous permet d'investir dans les bizness. ",
 			"prerequisites": [],
 			"unique": "yes"
 		},
@@ -306,17 +306,10 @@
 			"id": "influence-04",
 			"name": "Bizness",
 			"cost": 3,
-			"description": "Votre famille produit nourriture, alcool ou bêtes vendables.",
+			"description": "Votre bizness produit nourriture, alcool ou bêtes vendables, il peut exporter et importer des ressources.",
 			"prerequisites": [],
 			"notes": "Peut être pris plusieurs fois.",
-			"specializations": [
-				"Agriculture",
-				"Élevage de lézard géant",
-				"Élevage de korgnos",
-				"Élevage de mantin",
-				"Distillation"
-			],
-			"unique": "no"
+			"unique": "yes"
 		},
 		{
 			"id": "influence-05",

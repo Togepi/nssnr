@@ -26,7 +26,9 @@
 		"name": "Mécaniques ",
 		"subMenu": [
 			{ "name": "Mécaniques de base", "link": "/mecaniques/generales", "id": 9 },
-			{ "name": "Mots clés", "link": "/mecaniques/motsCles", "id": 10 }
+			{ "name": "Mots clés", "link": "/mecaniques/motsCles", "id": 10 },
+			{ "name": "Artisanat", "link": "/mecaniques/artisanat", "id": 11 },
+			{ "name": "Commerce", "link": "/mecaniques/commerce", "id": 12 }
 		]
 	},
 	{
@@ -35,11 +37,11 @@
 			{
 				"name": "Créer son personnage",
 				"link": "/creationPersonnage/resume",
-				"id": 11
+				"id": 13
 			},
-			{ "name": "Espèces jouables", "link": "/creationPersonnage/especesJouables", "id": 12 },
-			{ "name": "Compétences", "link": "/creationPersonnage/competences", "id": 13 },
-			{ "name": "Équipement", "link": "/creationPersonnage/equipement", "id": 14 }
+			{ "name": "Espèces jouables", "link": "/creationPersonnage/especesJouables", "id": 14 },
+			{ "name": "Compétences", "link": "/creationPersonnage/competences", "id": 15 },
+			{ "name": "Équipement", "link": "/creationPersonnage/equipement", "id": 16 }
 		]
 	}
 ]

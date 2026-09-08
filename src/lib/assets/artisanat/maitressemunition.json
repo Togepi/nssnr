@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "nom": "Recycler des munitions",
+    "composants": {
+      "munitions usées": 3
+    },
+    "lieu": "Atelier",
+    "effet": "Transforme trois munitions utilisées en deux nouvelles, utilisables."
+  },
+  {
+    "id": 2,
+    "nom": "Munition perce-armure",
+    "composants": {
+      "munitions usées": 5
+    },
+    "lieu": "Atelier",
+    "effet": "Annoncez 'Brise-bouclier !' lorsque vous tirez sur une adversaire."
+  },
+  {
+    "id": 3,
+    "nom": "Munition incendiaire",
+    "composants": {
+      "munitions usées": 5,
+      "Chimiques": 2
+    },
+    "lieu": "Atelier",
+    "effet": "Annoncez 'Tu prends feu et te roule par terre pendant 10 secondes !' lorsque vous tirez sur une adversaire."
+  },
+  {
+    "id": 4,
+    "nom": "Munition de maître",
+    "composants": {
+      "munitions usées": 10
+    },
+    "lieu": "Atelier",
+    "effet": "Créer une balle parfaite qui vaut 50U que vous pouvez vendre au marchand."
+  },
+  {
+    "id": 5,
+    "nom": "6x Munitions",
+    "composants": {
+      "Métaux": 2,
+      "Chimiques": 2
+    },
+    "lieu": "Partout",
+    "effet": "Munition pour arme à feu."
+  },
+  {
+    "id": 6,
+    "nom": "1x Munition lourde",
+    "composants": {
+      "Métaux": 5,
+      "Chimiques": 2
+    },
+    "lieu": "Partout",
+    "effet": "Munition pour arme lourde."
+  }
+]

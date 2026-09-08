@@ -1,0 +1,100 @@
+[
+	{
+		"id": 1,
+		"nom": "Couture",
+		"composants": {},
+		"lieu": "Partout",
+		"effet": "Réparez une armure légère (3min)."
+	},
+	{
+		"id": 2,
+		"nom": "Armure légère",
+		"composants": {
+			"Cuirs": 2
+		},
+		"lieu": "Partout",
+		"effet": "Armure (2pts)."
+	},
+	{
+		"id": 3,
+		"nom": "Armure moyenne (écailles)",
+		"composants": {
+			"Cuirs": 4
+		},
+		"lieu": "Atelier",
+		"effet": "Armure (4pts)."
+	},
+	{
+		"id": 4,
+		"nom": "Renforts temporaires",
+		"composants": {
+			"Cuirs": 2
+		},
+		"lieu": "Partout",
+		"effet": "+2pts d'armure. Quand les 2pts d'armure sont utilisés, ils ne peuvent pas être réparés."
+	},
+	{
+		"id": 5,
+		"nom": "Rembourrage anti-explosifs",
+		"composants": {
+			"Cuir": 2,
+			"Métaux": 2
+		},
+		"lieu": "",
+		"effet": "Au prochain boom, vous ne prenez que 2 fractures. Si vous ne pouvez pas prendre les deux fractures sans tomber en agonie, vous tombez en agonie."
+	},
+	{
+		"id": 6,
+		"nom": "Rembourrage anti-feu",
+		"composants": {
+			"Cuirs": 3
+		},
+		"lieu": "Partout",
+		"effet": "Ignorez la prochaine attaque de feu (boom de lance-flamme ou autre)."
+	},
+	{
+		"id": 7,
+		"nom": "Récolte",
+		"composants": {},
+		"lieu": "",
+		"effet": "Vous pouvez échanger une carte de braconnage à l'atelier contre 4x Cuirs."
+	},
+	{
+		"id": 8,
+		"nom": "Piège à Buzzards",
+		"composants": {
+			"Métaux": 3
+		},
+		"lieu": "Atelier",
+		"effet": "Gagnez une carte de braconnage 'Buzzard'."
+	},
+	{
+		"id": 9,
+		"nom": "Phéromones repoussantes",
+		"composants": {
+			"Cuirs": 5,
+			"Chimiques": 5
+		},
+		"lieu": "Atelier",
+		"effet": "Vous pouvez porter une odeur pour que les animaux vous ignorent. Cependant, tant que vous ne vous êtes pas lavé, vous devez régulièrement annoncer 'Je pue.'"
+	},
+	{
+		"id": 10,
+		"nom": "Kit d'attachement",
+		"composants": {
+			"Cuir": 1
+		},
+		"lieu": "Partout",
+		"effet": "1x/objet : vous permet de ligoter un personnage jusqu'à ce qu'il soit libéré. Le personnage peut se libérer avec 'Force'. Vous pouvez monter le coût de cette recette à 3x Cuirs pour que même un personnage avec 'Force' ne puisse pas se libérer."
+	},
+	{
+		"id": 11,
+		"nom": "Leurre massif animal",
+		"composants": {
+			"Bois": 10,
+			"Cuirs": 5
+		},
+		"lieu": "Atelier",
+		"effet": "1x/objet : attire une espèce sur le territoire, après un moment."
+	}
+]
