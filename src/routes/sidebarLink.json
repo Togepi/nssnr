@@ -11,24 +11,25 @@
 		"name": "Univers ",
 		"subMenu": [
 			{ "name": "NSSN", "link": "/univers/nssn", "id": 4 },
-			{ "name": "Les factions", "link": "/univers/factions", "id": 5 }
+			{ "name": "Les factions", "link": "/univers/factions", "id": 5 },
+			{ "name": "La Lune Rouge", "link": "/univers/luneRouge", "id": 6 }
 		]
 	},
 	{
 		"name": "Sécurité ",
 		"subMenu": [
-			{ "name": "Sécurité Physique", "link": "/securite/physique", "id": 6 },
-			{ "name": "Sécurité émotionelle", "link": "/securite/emotionelle", "id": 7 },
-			{ "name": "Fairplay", "link": "/securite/fairplay", "id": 8 }
+			{ "name": "Sécurité Physique", "link": "/securite/physique", "id": 7 },
+			{ "name": "Sécurité émotionelle", "link": "/securite/emotionelle", "id": 8 },
+			{ "name": "Fairplay", "link": "/securite/fairplay", "id": 9 }
 		]
 	},
 	{
 		"name": "Mécaniques ",
 		"subMenu": [
-			{ "name": "Mécaniques de base", "link": "/mecaniques/generales", "id": 9 },
-			{ "name": "Mots clés", "link": "/mecaniques/motsCles", "id": 10 },
-			{ "name": "Artisanat", "link": "/mecaniques/artisanat", "id": 11 },
-			{ "name": "Commerce", "link": "/mecaniques/commerce", "id": 12 }
+			{ "name": "Mécaniques de base", "link": "/mecaniques/generales", "id": 10 },
+			{ "name": "Mots clés", "link": "/mecaniques/motsCles", "id": 11 },
+			{ "name": "Artisanat", "link": "/mecaniques/artisanat", "id": 12 },
+			{ "name": "Commerce", "link": "/mecaniques/commerce", "id": 13 }
 		]
 	},
 	{
@@ -37,11 +38,11 @@
 			{
 				"name": "Créer son personnage",
 				"link": "/creationPersonnage/resume",
-				"id": 13
+				"id": 14
 			},
-			{ "name": "Espèces jouables", "link": "/creationPersonnage/especesJouables", "id": 14 },
-			{ "name": "Compétences", "link": "/creationPersonnage/competences", "id": 15 },
-			{ "name": "Équipement", "link": "/creationPersonnage/equipement", "id": 16 }
+			{ "name": "Espèces jouables", "link": "/creationPersonnage/especesJouables", "id": 15 },
+			{ "name": "Compétences", "link": "/creationPersonnage/competences", "id": 16 },
+			{ "name": "Équipement", "link": "/creationPersonnage/equipement", "id": 17 }
 		]
 	}
 ]
